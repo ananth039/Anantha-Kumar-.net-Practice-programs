@@ -1,0 +1,6 @@
+E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\bin\Debug\XmlDocument_writer_with_Do._.@while.exe.config
+E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\bin\Debug\XmlDocument_writer_with_Do._.@while.exe
+E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\bin\Debug\XmlDocument_writer_with_Do._.@while.pdb
+E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\obj\Debug\XmlDocument writer with Do..while.csprojResolveAssemblyReference.cache
+E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\obj\Debug\XmlDocument_writer_with_Do._.@while.exe
+E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\obj\Debug\XmlDocument_writer_with_Do._.@while.pdb

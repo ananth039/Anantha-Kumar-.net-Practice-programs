@@ -1,0 +1,12 @@
+<Hostel>
+  <Student Id="4" JoiningDate="ananth" RoomType="5 sharing" Fee="3400">
+    <Name>ananth</Name>
+    <PhoneNumber>8555555555</PhoneNumber>
+    <Address>chilakapadu</Address>
+  </Student>
+  <Student Id="6" JoiningDate="narasimha" RoomType="3 sharing" Fee="3500">
+    <Name>narasimha</Name>
+    <PhoneNumber>6566565656</PhoneNumber>
+    <Address>tadepalligudem</Address>
+  </Student>
+</Hostel>

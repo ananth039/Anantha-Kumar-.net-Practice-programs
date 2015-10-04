@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<REDBus>
+  <Description>redBus – India’s number 1 bus ticketing platform, was founded in 2005 and is a part of ibiboGroup. We take pride in providing bus ticket fare with zero booking charges. You can now choose from 1500+ bus operators and 80,000 routes in India.</Description>
+  <RedBusesInfo>
+    <Bus id="1" Type="AC" source="vizag" destination="Rajamundry" Depart="9:00pm" Arrive="11:00pm" Duration="2hrs"
+         fare="500">Yamani Travels</Bus>
+    <Bus id="15" Type="Non-Ac" source="Tirupathi" destination="Vijayawada" Depart="9:00pm" Arrive="6:00am" Duration="9hrs"
+       fare="370">SVKDT Travels</Bus>
+    <Bus id="25" Type="Ac" source="Vijayawada" destination="hydearbad" Depart="10:45pm" Arrive="5:30am" Duration="6:45hrs"
+       fare="700">Orange Tours Travels</Bus>
+    <Bus id="20" Type="NOn-Ac" source="Hyderabad" destination="Tanuku" Depart="8:10pm" Arrive="6:30Am" Duration="10:20hrs"
+       fare="450">Kaveri Travels</Bus>
+    <Bus id="8" Type="AC" source="Hyderbad" destination="bangalore" Depart="9:45pm" Arrive="7:15am" Duration="9:30hrs"
+       fare="600"> SHARMA TRANSPORT</Bus>
+    <Bus id="28" Type="AC" source="Bangalore" destination="chennai" Depart="11:00pm" Arrive="5:00am" Duration="6hrs"
+       fare=" 600">Hebron Transports</Bus>
+    <Bus id="30" Type="AC" source="Chennai" destination="madurai" Depart="10:00pm" Arrive="6:00am" Duration="8hrs"
+       fare="900">Parveen Travels</Bus>
+    
+  </RedBusesInfo>
+</REDBus>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Hostel>
+  <Student Id="1" JoiningDate="10-09-2015" RoomType="5 sharing" Fee="3400" PhoneNumber="8374286062" Address="Gunturu">Anantha Kumar</Student>
+ <Student Id="2" JoiningDate="10-08-2015" RoomType="5 sharing" Fee="3400" PhoneNumber="454545455" Address="Gunturu">Prasad</Student>
+ <Student Id="3" JoiningDate="05-07-2015" RoomType="3 sharing" Fee="3500" PhoneNumber="1234567895" Address="Tadepalligudem">narasimha</Student>
+ <Student Id="4" JoiningDate="01-04-2015" RoomType="3 sharing" Fee="3500" PhoneNumber="451256685" Address="nandyala">Shankar</Student>
+ <Student Id="5" JoiningDate="11-06-2015" RoomType="5 sharing" Fee="3400" PhoneNumber="45222265" Address="Tanuku">Mainkanta</Student>
+ <Student Id="6" JoiningDate="12-05-2015" RoomType="3 sharing" Fee="3500" PhoneNumber="124666655" Address="Rajamundry">kumar</Student>
+
+</Hostel>

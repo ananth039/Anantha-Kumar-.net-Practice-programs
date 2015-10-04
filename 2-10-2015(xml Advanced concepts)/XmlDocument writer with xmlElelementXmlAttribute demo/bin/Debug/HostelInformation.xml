@@ -1,0 +1,7 @@
+<Hostel>
+  <Student Id="1" JoiningDate="01-10-2015" RoomType="3share" Fee="3400">
+    <Name>Kumar</Name>
+    <PhoneNumber>98486485454</PhoneNumber>
+    <Address>rjy</Address>
+  </Student>
+</Hostel>
