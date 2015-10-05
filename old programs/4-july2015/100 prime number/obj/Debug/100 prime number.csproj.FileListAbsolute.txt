@@ -1,0 +1,6 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\4-july2015\100 prime number\bin\Debug\100 prime number.exe.config
+c:\users\anantha kumar\documents\visual studio 2013\Projects\4-july2015\100 prime number\bin\Debug\100 prime number.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\4-july2015\100 prime number\bin\Debug\100 prime number.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\4-july2015\100 prime number\obj\Debug\100 prime number.csprojResolveAssemblyReference.cache
+c:\users\anantha kumar\documents\visual studio 2013\Projects\4-july2015\100 prime number\obj\Debug\100 prime number.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\4-july2015\100 prime number\obj\Debug\100 prime number.pdb

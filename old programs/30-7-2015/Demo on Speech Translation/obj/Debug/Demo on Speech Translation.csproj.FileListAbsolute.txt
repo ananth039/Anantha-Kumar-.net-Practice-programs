@@ -1,0 +1,2 @@
+C:\Users\Anantha Kumar\Documents\Visual Studio 2013\Projects\30-7-2015\Demo on Speech Translation\bin\Debug\Demo on Speech Translation.exe.config
+C:\Users\Anantha Kumar\Documents\Visual Studio 2013\Projects\30-7-2015\Demo on Speech Translation\obj\Debug\Demo on Speech Translation.csprojResolveAssemblyReference.cache

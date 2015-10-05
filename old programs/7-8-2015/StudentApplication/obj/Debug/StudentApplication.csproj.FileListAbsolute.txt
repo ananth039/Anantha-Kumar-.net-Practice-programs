@@ -1,0 +1,5 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\7-8-2015\StudentApplication\bin\Debug\StudentApplication.exe.config
+c:\users\anantha kumar\documents\visual studio 2013\Projects\7-8-2015\StudentApplication\bin\Debug\StudentApplication.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\7-8-2015\StudentApplication\bin\Debug\StudentApplication.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\7-8-2015\StudentApplication\obj\Debug\StudentApplication.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\7-8-2015\StudentApplication\obj\Debug\StudentApplication.pdb

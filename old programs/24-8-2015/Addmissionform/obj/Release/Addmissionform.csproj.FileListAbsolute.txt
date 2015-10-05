@@ -1,0 +1,3 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\24-8-2015\Addmissionform\obj\Release\Addmissionform.Properties.Resources.resources
+c:\users\anantha kumar\documents\visual studio 2013\Projects\24-8-2015\Addmissionform\obj\Release\Addmissionform.csproj.GenerateResource.Cache
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\24-8-2015\Addmissionform\obj\Release\Addmissionform.csprojResolveAssemblyReference.cache

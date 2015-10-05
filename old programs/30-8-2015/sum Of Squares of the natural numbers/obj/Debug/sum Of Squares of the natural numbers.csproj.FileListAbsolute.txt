@@ -1,0 +1,6 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\30-8-2015\sum Of Squares of the natural numbers\bin\Debug\sum Of Squares of the natural numbers.exe.config
+c:\users\anantha kumar\documents\visual studio 2013\Projects\30-8-2015\sum Of Squares of the natural numbers\bin\Debug\sum Of Squares of the natural numbers.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\30-8-2015\sum Of Squares of the natural numbers\bin\Debug\sum Of Squares of the natural numbers.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\30-8-2015\sum Of Squares of the natural numbers\obj\Debug\sum Of Squares of the natural numbers.csprojResolveAssemblyReference.cache
+c:\users\anantha kumar\documents\visual studio 2013\Projects\30-8-2015\sum Of Squares of the natural numbers\obj\Debug\sum Of Squares of the natural numbers.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\30-8-2015\sum Of Squares of the natural numbers\obj\Debug\sum Of Squares of the natural numbers.pdb

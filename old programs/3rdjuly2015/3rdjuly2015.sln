@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "even or odd", "even or odd\even or odd.csproj", "{D20584DA-C5C5-4648-8C41-BBBA57E0E478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "even or odd 2", "even or odd 2\even or odd 2.csproj", "{DA213356-02FA-4D81-A123-E41A8B4BCA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prime numbers", "prime numbers\prime numbers.csproj", "{58BA8C8B-C8C6-4A55-8B75-3D60DB4524DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20584DA-C5C5-4648-8C41-BBBA57E0E478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20584DA-C5C5-4648-8C41-BBBA57E0E478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20584DA-C5C5-4648-8C41-BBBA57E0E478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20584DA-C5C5-4648-8C41-BBBA57E0E478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA213356-02FA-4D81-A123-E41A8B4BCA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA213356-02FA-4D81-A123-E41A8B4BCA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA213356-02FA-4D81-A123-E41A8B4BCA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA213356-02FA-4D81-A123-E41A8B4BCA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BA8C8B-C8C6-4A55-8B75-3D60DB4524DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BA8C8B-C8C6-4A55-8B75-3D60DB4524DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BA8C8B-C8C6-4A55-8B75-3D60DB4524DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BA8C8B-C8C6-4A55-8B75-3D60DB4524DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

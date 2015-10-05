@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "display name as message box", "display name as message box\display name as message box.csproj", "{944099A3-8858-419C-A090-A8D901CBE423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{3B65D96E-8EFA-41D3-B7A8-321843ED8F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multifunctional operations", "isPrime,Iseven,IsOdd,Reverse number\Multifunctional operations.csproj", "{9E8C16C7-2010-4955-A44D-60DDF4D7C428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInterst", "SimpleInterst\SimpleInterst.csproj", "{2563D568-C57A-4B09-BC98-457E8062B50A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "traffic signal", "traffic signal\traffic signal.csproj", "{720963B8-BB18-454E-B1A8-DE692C3770F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "star pyramid", "star pyramid\star pyramid.csproj", "{A2A8EB46-4286-4BF5-AA80-671D4BD09399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pyramid", "pyramid\pyramid.csproj", "{D16BDA47-821E-4867-82FB-F2C77666252D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{944099A3-8858-419C-A090-A8D901CBE423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944099A3-8858-419C-A090-A8D901CBE423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944099A3-8858-419C-A090-A8D901CBE423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944099A3-8858-419C-A090-A8D901CBE423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B65D96E-8EFA-41D3-B7A8-321843ED8F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B65D96E-8EFA-41D3-B7A8-321843ED8F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B65D96E-8EFA-41D3-B7A8-321843ED8F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B65D96E-8EFA-41D3-B7A8-321843ED8F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8C16C7-2010-4955-A44D-60DDF4D7C428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8C16C7-2010-4955-A44D-60DDF4D7C428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8C16C7-2010-4955-A44D-60DDF4D7C428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8C16C7-2010-4955-A44D-60DDF4D7C428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2563D568-C57A-4B09-BC98-457E8062B50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2563D568-C57A-4B09-BC98-457E8062B50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2563D568-C57A-4B09-BC98-457E8062B50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2563D568-C57A-4B09-BC98-457E8062B50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720963B8-BB18-454E-B1A8-DE692C3770F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720963B8-BB18-454E-B1A8-DE692C3770F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720963B8-BB18-454E-B1A8-DE692C3770F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720963B8-BB18-454E-B1A8-DE692C3770F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A8EB46-4286-4BF5-AA80-671D4BD09399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A8EB46-4286-4BF5-AA80-671D4BD09399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A8EB46-4286-4BF5-AA80-671D4BD09399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A8EB46-4286-4BF5-AA80-671D4BD09399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16BDA47-821E-4867-82FB-F2C77666252D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16BDA47-821E-4867-82FB-F2C77666252D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16BDA47-821E-4867-82FB-F2C77666252D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16BDA47-821E-4867-82FB-F2C77666252D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

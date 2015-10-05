@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bank transactions", "bank transactions\bank transactions.csproj", "{B6C8D375-9E34-4746-96E6-B2FA58F6744E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee", "Employee\Employee.csproj", "{DA768A6E-A9F4-4E0D-BCBB-5D387EE24D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Writing in to text file", "Writing in to text file\Writing in to text file.csproj", "{4C78FBB8-D959-4893-857A-151DCDBD403F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6C8D375-9E34-4746-96E6-B2FA58F6744E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C8D375-9E34-4746-96E6-B2FA58F6744E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C8D375-9E34-4746-96E6-B2FA58F6744E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C8D375-9E34-4746-96E6-B2FA58F6744E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA768A6E-A9F4-4E0D-BCBB-5D387EE24D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA768A6E-A9F4-4E0D-BCBB-5D387EE24D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA768A6E-A9F4-4E0D-BCBB-5D387EE24D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA768A6E-A9F4-4E0D-BCBB-5D387EE24D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C78FBB8-D959-4893-857A-151DCDBD403F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C78FBB8-D959-4893-857A-151DCDBD403F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C78FBB8-D959-4893-857A-151DCDBD403F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C78FBB8-D959-4893-857A-151DCDBD403F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

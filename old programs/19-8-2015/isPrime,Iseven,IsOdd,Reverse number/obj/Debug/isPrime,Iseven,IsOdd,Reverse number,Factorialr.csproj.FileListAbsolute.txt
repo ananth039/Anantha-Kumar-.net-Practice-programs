@@ -1,0 +1,8 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\isPrime,Iseven,IsOdd,Reverse number\bin\Debug\isPrime,Iseven,IsOdd,Reverse number.exe.config
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\isPrime,Iseven,IsOdd,Reverse number\bin\Debug\isPrime,Iseven,IsOdd,Reverse number.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\isPrime,Iseven,IsOdd,Reverse number\bin\Debug\isPrime,Iseven,IsOdd,Reverse number.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\isPrime,Iseven,IsOdd,Reverse number\obj\Debug\isPrime_Iseven_IsOdd_Reverse_number.Form1.resources
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\isPrime,Iseven,IsOdd,Reverse number\obj\Debug\isPrime_Iseven_IsOdd_Reverse_number.Properties.Resources.resources
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\isPrime,Iseven,IsOdd,Reverse number\obj\Debug\isPrime,Iseven,IsOdd,Reverse number,Factorialr.csproj.GenerateResource.Cache
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\isPrime,Iseven,IsOdd,Reverse number\obj\Debug\isPrime,Iseven,IsOdd,Reverse number.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\isPrime,Iseven,IsOdd,Reverse number\obj\Debug\isPrime,Iseven,IsOdd,Reverse number.pdb

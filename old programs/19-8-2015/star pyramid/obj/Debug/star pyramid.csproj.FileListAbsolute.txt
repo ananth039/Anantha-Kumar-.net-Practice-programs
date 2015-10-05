@@ -1,0 +1,9 @@
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\19-8-2015\star pyramid\bin\Debug\star pyramid.exe.config
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\19-8-2015\star pyramid\bin\Debug\star pyramid.exe
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\19-8-2015\star pyramid\bin\Debug\star pyramid.pdb
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\19-8-2015\star pyramid\obj\Debug\star_pyramid.Form1.resources
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\19-8-2015\star pyramid\obj\Debug\star_pyramid.Properties.Resources.resources
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\19-8-2015\star pyramid\obj\Debug\star pyramid.csproj.GenerateResource.Cache
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\19-8-2015\star pyramid\obj\Debug\star pyramid.exe
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\19-8-2015\star pyramid\obj\Debug\star pyramid.pdb
+C:\Users\Anantha Kumar\Documents\Visual Studio 2013\Projects\19-8-2015\star pyramid\obj\Debug\star pyramid.csprojResolveAssemblyReference.cache

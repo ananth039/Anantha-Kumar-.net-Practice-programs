@@ -4,3 +4,9 @@ E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocume
 E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\obj\Debug\XmlDocument writer with Do..while.csprojResolveAssemblyReference.cache
 E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\obj\Debug\XmlDocument_writer_with_Do._.@while.exe
 E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\obj\Debug\XmlDocument_writer_with_Do._.@while.pdb
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\bin\Debug\XmlDocument_writer_with_Do._.@while.exe.config
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\bin\Debug\XmlDocument_writer_with_Do._.@while.exe
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\bin\Debug\XmlDocument_writer_with_Do._.@while.pdb
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\obj\Debug\XmlDocument writer with Do..while.csprojResolveAssemblyReference.cache
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\obj\Debug\XmlDocument_writer_with_Do._.@while.exe
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument writer with Do..while\obj\Debug\XmlDocument_writer_with_Do._.@while.pdb

@@ -1,0 +1,6 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\14-9-2015\ref_out_pass_by_reference demo\bin\Debug\ref_out_pass_by_reference demo.exe.config
+c:\users\anantha kumar\documents\visual studio 2013\Projects\14-9-2015\ref_out_pass_by_reference demo\obj\Debug\ref_out_pass_by_reference demo.csprojResolveAssemblyReference.cache
+c:\users\anantha kumar\documents\visual studio 2013\Projects\14-9-2015\ref_out_pass_by_reference demo\bin\Debug\ref_out_pass_by_reference demo.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\14-9-2015\ref_out_pass_by_reference demo\bin\Debug\ref_out_pass_by_reference demo.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\14-9-2015\ref_out_pass_by_reference demo\obj\Debug\ref_out_pass_by_reference demo.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\14-9-2015\ref_out_pass_by_reference demo\obj\Debug\ref_out_pass_by_reference demo.pdb
