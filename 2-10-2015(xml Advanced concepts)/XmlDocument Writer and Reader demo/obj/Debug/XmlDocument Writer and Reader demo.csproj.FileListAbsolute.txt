@@ -4,3 +4,9 @@ E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocume
 E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument Writer and Reader demo\obj\Debug\XmlDocument Writer and Reader demo.csprojResolveAssemblyReference.cache
 E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument Writer and Reader demo\obj\Debug\XmlDocument Writer and Reader demo.exe
 E:\My Practice Programs\Anantha Kumar\2-10-2015(xml Advanced concepts)\XmlDocument Writer and Reader demo\obj\Debug\XmlDocument Writer and Reader demo.pdb
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument Writer and Reader demo\bin\Debug\XmlDocument Writer and Reader demo.exe.config
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument Writer and Reader demo\bin\Debug\XmlDocument Writer and Reader demo.exe
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument Writer and Reader demo\bin\Debug\XmlDocument Writer and Reader demo.pdb
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument Writer and Reader demo\obj\Debug\XmlDocument Writer and Reader demo.csprojResolveAssemblyReference.cache
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument Writer and Reader demo\obj\Debug\XmlDocument Writer and Reader demo.exe
+C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument Writer and Reader demo\obj\Debug\XmlDocument Writer and Reader demo.pdb

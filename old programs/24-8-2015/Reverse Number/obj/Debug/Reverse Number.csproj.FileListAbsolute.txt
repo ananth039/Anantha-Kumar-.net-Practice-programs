@@ -1,0 +1,3 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\24-8-2015\Reverse Number\obj\Debug\Reverse_Number.Form1.resources
+c:\users\anantha kumar\documents\visual studio 2013\Projects\24-8-2015\Reverse Number\obj\Debug\Reverse_Number.Properties.Resources.resources
+c:\users\anantha kumar\documents\visual studio 2013\Projects\24-8-2015\Reverse Number\obj\Debug\Reverse Number.csproj.GenerateResource.Cache

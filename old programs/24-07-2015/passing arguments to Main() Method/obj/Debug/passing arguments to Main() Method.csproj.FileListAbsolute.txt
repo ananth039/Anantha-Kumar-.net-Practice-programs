@@ -1,0 +1,5 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\24-07-2015\passing arguments to Main() Method\bin\Debug\passing arguments to Main() Method.exe.config
+c:\users\anantha kumar\documents\visual studio 2013\Projects\24-07-2015\passing arguments to Main() Method\bin\Debug\passing arguments to Main() Method.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\24-07-2015\passing arguments to Main() Method\bin\Debug\passing arguments to Main() Method.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\24-07-2015\passing arguments to Main() Method\obj\Debug\passing arguments to Main() Method.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\24-07-2015\passing arguments to Main() Method\obj\Debug\passing arguments to Main() Method.pdb

@@ -1,0 +1,8 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\display name as message box\bin\Debug\display name as message box.exe.config
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\display name as message box\bin\Debug\display name as message box.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\display name as message box\bin\Debug\display name as message box.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\display name as message box\obj\Debug\display_name_as_message_box.Form1.resources
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\display name as message box\obj\Debug\display_name_as_message_box.Properties.Resources.resources
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\display name as message box\obj\Debug\display name as message box.csproj.GenerateResource.Cache
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\display name as message box\obj\Debug\display name as message box.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\19-8-2015\display name as message box\obj\Debug\display name as message box.pdb

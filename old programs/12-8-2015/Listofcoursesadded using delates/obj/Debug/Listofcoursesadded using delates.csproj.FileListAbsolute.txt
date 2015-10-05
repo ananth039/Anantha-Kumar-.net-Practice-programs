@@ -1,0 +1,6 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\12-8-2015\Listofcoursesadded using delates\bin\Debug\Listofcoursesadded using delates.exe.config
+c:\users\anantha kumar\documents\visual studio 2013\Projects\12-8-2015\Listofcoursesadded using delates\obj\Debug\Listofcoursesadded using delates.csprojResolveAssemblyReference.cache
+c:\users\anantha kumar\documents\visual studio 2013\Projects\12-8-2015\Listofcoursesadded using delates\bin\Debug\Listofcoursesadded using delates.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\12-8-2015\Listofcoursesadded using delates\bin\Debug\Listofcoursesadded using delates.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\12-8-2015\Listofcoursesadded using delates\obj\Debug\Listofcoursesadded using delates.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\12-8-2015\Listofcoursesadded using delates\obj\Debug\Listofcoursesadded using delates.pdb

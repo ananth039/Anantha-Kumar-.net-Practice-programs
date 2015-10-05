@@ -1,0 +1,6 @@
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\14-9-2015\tryparseDemo\bin\Debug\tryparseDemo.exe.config
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\14-9-2015\tryparseDemo\bin\Debug\tryparseDemo.exe
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\14-9-2015\tryparseDemo\bin\Debug\tryparseDemo.pdb
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\14-9-2015\tryparseDemo\obj\Debug\tryparseDemo.csprojResolveAssemblyReference.cache
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\14-9-2015\tryparseDemo\obj\Debug\tryparseDemo.exe
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\14-9-2015\tryparseDemo\obj\Debug\tryparseDemo.pdb

@@ -1,0 +1,6 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\6-8-2015\bank transactions\bin\Debug\bank transactions.exe.config
+c:\users\anantha kumar\documents\visual studio 2013\Projects\6-8-2015\bank transactions\obj\Debug\bank transactions.csprojResolveAssemblyReference.cache
+c:\users\anantha kumar\documents\visual studio 2013\Projects\6-8-2015\bank transactions\bin\Debug\bank transactions.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\6-8-2015\bank transactions\bin\Debug\bank transactions.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\6-8-2015\bank transactions\obj\Debug\bank transactions.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\6-8-2015\bank transactions\obj\Debug\bank transactions.pdb

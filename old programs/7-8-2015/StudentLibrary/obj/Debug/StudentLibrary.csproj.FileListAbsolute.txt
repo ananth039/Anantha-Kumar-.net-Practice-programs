@@ -1,0 +1,4 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\7-8-2015\StudentLibrary\bin\Debug\StudentLibrary.dll
+c:\users\anantha kumar\documents\visual studio 2013\Projects\7-8-2015\StudentLibrary\bin\Debug\StudentLibrary.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\7-8-2015\StudentLibrary\obj\Debug\StudentLibrary.dll
+c:\users\anantha kumar\documents\visual studio 2013\Projects\7-8-2015\StudentLibrary\obj\Debug\StudentLibrary.pdb

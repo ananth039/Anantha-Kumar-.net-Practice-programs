@@ -1,0 +1,5 @@
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\ananth.acer.laptop.examples.partialclasses\Gross Salary\bin\Debug\Gross Salary.exe.config
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\ananth.acer.laptop.examples.partialclasses\Gross Salary\bin\Debug\Gross Salary.exe
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\ananth.acer.laptop.examples.partialclasses\Gross Salary\bin\Debug\Gross Salary.pdb
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\ananth.acer.laptop.examples.partialclasses\Gross Salary\obj\Debug\Gross Salary.exe
+C:\Users\Anantha Kumar\documents\visual studio 2013\Projects\ananth.acer.laptop.examples.partialclasses\Gross Salary\obj\Debug\Gross Salary.pdb

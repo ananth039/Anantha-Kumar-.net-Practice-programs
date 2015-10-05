@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMBO BOX demo", "COMBO BOX demo\COMBO BOX demo.csproj", "{94CA59D2-EE40-48B6-B5D1-586AB19E000A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "TextEditor\TextEditor.csproj", "{EF2B694B-B057-4D0E-8423-F4E7C48D4AA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dialog form demo", "Dialog form demo\Dialog form demo.csproj", "{CE0C1DA6-1E08-4B81-941D-3565A4879F69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94CA59D2-EE40-48B6-B5D1-586AB19E000A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CA59D2-EE40-48B6-B5D1-586AB19E000A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CA59D2-EE40-48B6-B5D1-586AB19E000A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CA59D2-EE40-48B6-B5D1-586AB19E000A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2B694B-B057-4D0E-8423-F4E7C48D4AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2B694B-B057-4D0E-8423-F4E7C48D4AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2B694B-B057-4D0E-8423-F4E7C48D4AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2B694B-B057-4D0E-8423-F4E7C48D4AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0C1DA6-1E08-4B81-941D-3565A4879F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0C1DA6-1E08-4B81-941D-3565A4879F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0C1DA6-1E08-4B81-941D-3565A4879F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0C1DA6-1E08-4B81-941D-3565A4879F69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+c:\users\anantha kumar\documents\visual studio 2013\Projects\13-8-2015\Consoleproperties\obj\Debug\Consoleproperties.csprojResolveAssemblyReference.cache
+c:\users\anantha kumar\documents\visual studio 2013\Projects\13-8-2015\Consoleproperties\bin\Debug\Consoleproperties.exe.config
+c:\users\anantha kumar\documents\visual studio 2013\Projects\13-8-2015\Consoleproperties\bin\Debug\Consoleproperties.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\13-8-2015\Consoleproperties\bin\Debug\Consoleproperties.pdb
+c:\users\anantha kumar\documents\visual studio 2013\Projects\13-8-2015\Consoleproperties\obj\Debug\Consoleproperties.exe
+c:\users\anantha kumar\documents\visual studio 2013\Projects\13-8-2015\Consoleproperties\obj\Debug\Consoleproperties.pdb
