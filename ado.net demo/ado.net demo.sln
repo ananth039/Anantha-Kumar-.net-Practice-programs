@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert the values in to tab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "update the tabel", "update the tabel\update the tabel.csproj", "{6A51B5D7-DE63-4837-AA8C-F2E3A8F7AC16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "retrive the tabel data is add to grid in win form", "retrive the tabel data is add to grid in win form\retrive the tabel data is add to grid in win form.csproj", "{582CD55C-9D83-4580-A231-1BEC68F7C12A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "student Form", "student Form\student Form.csproj", "{F39B23C0-1BCF-48B5-B9CA-17C3A10F0C79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{6A51B5D7-DE63-4837-AA8C-F2E3A8F7AC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A51B5D7-DE63-4837-AA8C-F2E3A8F7AC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A51B5D7-DE63-4837-AA8C-F2E3A8F7AC16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582CD55C-9D83-4580-A231-1BEC68F7C12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582CD55C-9D83-4580-A231-1BEC68F7C12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582CD55C-9D83-4580-A231-1BEC68F7C12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582CD55C-9D83-4580-A231-1BEC68F7C12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39B23C0-1BCF-48B5-B9CA-17C3A10F0C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39B23C0-1BCF-48B5-B9CA-17C3A10F0C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39B23C0-1BCF-48B5-B9CA-17C3A10F0C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39B23C0-1BCF-48B5-B9CA-17C3A10F0C79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
