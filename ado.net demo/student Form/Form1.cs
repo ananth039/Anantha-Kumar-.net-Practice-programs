@@ -41,9 +41,29 @@ namespace student_Form
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             CreateTable();
-           int stid;
-          Int64 stphone;
-           string name,fatherName,DateOfbirth,address;
+            FormValidate();
+            try
+            {
+                InsertValues();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            
+
+            
+        
+           
+
+        }
+
+        private void InsertValues()
+        {
+            int stid;
+            Int64 stphone;
+            string name, fatherName, DateOfbirth, address;
             FormValidate();
             stid = int.Parse(txtStudentId.Text);
             name = txtStudnetName.Text;
@@ -59,7 +79,7 @@ namespace student_Form
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     string insertQuery = "insert into School (studentId,studentName,fatherName,DateOfBirth,PhoneNumber,Address) values({0},'{1}','{2}','{3}',{4},'{5}')";
-                    SqlCommand CreateCommand = new SqlCommand(string.Format(insertQuery,stid,name,fatherName,DateOfbirth,stphone,address),connection);
+                    SqlCommand CreateCommand = new SqlCommand(string.Format(insertQuery, stid, name, fatherName, DateOfbirth, stphone, address), connection);
                     connection.Open();
                     CreateCommand.ExecuteNonQuery();
                     MessageBox.Show("yours details are sucessfully submited");
@@ -78,13 +98,6 @@ namespace student_Form
                 MessageBox.Show(ex.Message);
                 MessageBox.Show("your details not subimted");
             }
-            
-
-            
-
-            
-        
-           
 
         }
 
