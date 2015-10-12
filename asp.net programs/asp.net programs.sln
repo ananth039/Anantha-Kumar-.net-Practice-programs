@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gridview Reader", "gridview Reader\gridview Reader.csproj", "{86875408-3E1C-4777-9277-F1C16CBEAE74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mobile form", "mobile form\mobile form.csproj", "{748BD137-E393-498E-89BF-0BF8E745D955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{86875408-3E1C-4777-9277-F1C16CBEAE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86875408-3E1C-4777-9277-F1C16CBEAE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86875408-3E1C-4777-9277-F1C16CBEAE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748BD137-E393-498E-89BF-0BF8E745D955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748BD137-E393-498E-89BF-0BF8E745D955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748BD137-E393-498E-89BF-0BF8E745D955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748BD137-E393-498E-89BF-0BF8E745D955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
