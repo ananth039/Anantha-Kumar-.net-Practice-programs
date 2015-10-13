@@ -61,6 +61,8 @@
     <Content Include="2563.jpg" />
     <Content Include="487095.JPG" />
     <Content Include="4e75eee09dfa778ee05393aed3998ab3.png" />
+    <Content Include="external Style sheet.css" />
+    <Content Include="html form to apply external style sheet using link.html" />
     <Content Include="Html Page using inline style sheets.html" />
     <Content Include="html page using internal style sheets.html" />
     <Content Include="Koala.jpg" />
