@@ -9,3 +9,9 @@ C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-20
 C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument writer with xmlElelementXmlAttribute demo\bin\Debug\XmlDocument writer with xmlElelementXmlAttribute demo.pdb
 C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument writer with xmlElelementXmlAttribute demo\obj\Debug\XmlDocument writer with xmlElelementXmlAttribute demo.exe
 C:\Users\Anantha Kumar\Source\Repos\Anantha-Kumar-.net-Practice-programs\2-10-2015(xml Advanced concepts)\XmlDocument writer with xmlElelementXmlAttribute demo\obj\Debug\XmlDocument writer with xmlElelementXmlAttribute demo.pdb
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\XmlDocument writer with xmlElelementXmlAttribute demo\bin\Debug\XmlDocument writer with xmlElelementXmlAttribute demo.exe.config
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\XmlDocument writer with xmlElelementXmlAttribute demo\bin\Debug\XmlDocument writer with xmlElelementXmlAttribute demo.exe
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\XmlDocument writer with xmlElelementXmlAttribute demo\bin\Debug\XmlDocument writer with xmlElelementXmlAttribute demo.pdb
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\XmlDocument writer with xmlElelementXmlAttribute demo\obj\Debug\XmlDocument writer with xmlElelementXmlAttribute demo.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\XmlDocument writer with xmlElelementXmlAttribute demo\obj\Debug\XmlDocument writer with xmlElelementXmlAttribute demo.exe
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\XmlDocument writer with xmlElelementXmlAttribute demo\obj\Debug\XmlDocument writer with xmlElelementXmlAttribute demo.pdb
