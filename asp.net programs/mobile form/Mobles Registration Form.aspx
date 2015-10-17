@@ -19,7 +19,6 @@
     <div>
     
         <asp:Label ID="lblMobileBrand" runat="server" Text="Mobile Brand" style="color:white;text-align:left"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    
         <asp:DropDownList ID="ddlMobileBrand" runat="server">
             <asp:ListItem>Nokia</asp:ListItem>
             <asp:ListItem>Samsung</asp:ListItem>

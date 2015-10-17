@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xmlElement_Lambda_expressio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xml writer2", "xml writer2\xml writer2.csproj", "{5348712B-1351-4764-A670-AF97711D53F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xml Reader", "xml Reader\xml Reader.csproj", "{35547217-AFA8-46D5-AE15-EB4D5C4C30EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5348712B-1351-4764-A670-AF97711D53F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5348712B-1351-4764-A670-AF97711D53F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5348712B-1351-4764-A670-AF97711D53F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35547217-AFA8-46D5-AE15-EB4D5C4C30EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35547217-AFA8-46D5-AE15-EB4D5C4C30EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35547217-AFA8-46D5-AE15-EB4D5C4C30EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35547217-AFA8-46D5-AE15-EB4D5C4C30EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

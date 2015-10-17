@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+  <Student>
+    <Name>kumar</Name>
+    <Phno>12345</Phno>
+  </Student>
+  <Student>
+    <Name>hari</Name>
+    <Phno>54321</Phno>
+    </Student>
+  
+</Students>

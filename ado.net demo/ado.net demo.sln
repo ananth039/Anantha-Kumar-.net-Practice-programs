@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "student Form", "student For
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retrive data from table in database using SqlDataReader", "Retrive data from table in database using SqlDataReader\Retrive data from table in database using SqlDataReader.csproj", "{4F48F404-6FD7-4C5F-BC35-2CFA56B7ECE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{B49A3B48-54D4-4BEE-9CE3-E82A5AE3C18C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4F48F404-6FD7-4C5F-BC35-2CFA56B7ECE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F48F404-6FD7-4C5F-BC35-2CFA56B7ECE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F48F404-6FD7-4C5F-BC35-2CFA56B7ECE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49A3B48-54D4-4BEE-9CE3-E82A5AE3C18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49A3B48-54D4-4BEE-9CE3-E82A5AE3C18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49A3B48-54D4-4BEE-9CE3-E82A5AE3C18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49A3B48-54D4-4BEE-9CE3-E82A5AE3C18C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

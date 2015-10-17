@@ -60,7 +60,7 @@ namespace xml_writer2
                 businfo.AppendChild(buselement);
                 doc.AppendChild(businfo);
                 doc.Save("businfo.xml");
-
+               
                 Console.WriteLine("Do you want add more records yes or not press enter");
                 choice = Console.ReadLine();
             } while (!string.IsNullOrEmpty(choice));

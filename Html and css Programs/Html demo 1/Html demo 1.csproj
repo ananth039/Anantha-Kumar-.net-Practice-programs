@@ -64,7 +64,6 @@
     <Content Include="external Style sheet.css" />
     <Content Include="html form to apply external style sheet using link.html" />
     <Content Include="Html Page using inline style sheets.html" />
-    <Content Include="html page using internal style sheets.html" />
     <Content Include="Koala.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
