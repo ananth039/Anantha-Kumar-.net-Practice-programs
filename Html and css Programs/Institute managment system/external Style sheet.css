@@ -5,8 +5,8 @@
         }
         img
         {
-            width:42px;
-            height:40px;
+            width:80px;
+            height:80px;
             border-radius:50%;
         }
         h1
@@ -46,11 +46,4 @@
             color: red;
             background-color: #ddedf1;
         }
-        .txtmodecolor
-        {
-            border: 1px solid #ff00dc;
-            color: red;
-            background-color: #ddedf1;
-        }
-        
       

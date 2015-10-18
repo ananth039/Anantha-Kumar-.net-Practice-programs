@@ -10,7 +10,10 @@
 </head>
 <body>
     <form id="form1" runat="server" >
-   <table align="center">
+    
+        
+       
+   <table align="center" style="height: 1150px">
        <tr>
                 <td class="auto-style1"><img src="4e75eee09dfa778ee05393aed3998ab3.png" /></td>
                 <td></td>
@@ -27,9 +30,9 @@
                    <tr>
                 <td class="auto-style1"><asp:Label ID="lbldateofjoin" runat="server" Text="DATE OF JOIN" /></td>
                 <td>
-                    <asp:TextBox ID="txtDateOfJoin" runat="server"></asp:TextBox></td>
+                    <asp:TextBox ID="txtDateOfJoin" runat="server" TextMode="DateTimeLocal" CssClass="txtmodecolor"></asp:TextBox></td>
                 <td><asp:Label ID="lblbatchno" runat="server" Text="BATCH NO" /></td>
-                <td> <asp:TextBox ID="txtbatchno" runat="server"></asp:TextBox></td>
+                <td> <asp:TextBox ID="txtbatchno" runat="server" TextMode="Number" CssClass="txtmodecolor"></asp:TextBox></td>
                 <td> <asp:Label ID="lblIdno" runat="server" Text="ID NO" /></td>
                 <td><asp:TextBox ID="txtIdNo" runat="server"></asp:TextBox></td>
             </tr>
@@ -59,12 +62,12 @@
 
             </tr>
        <tr>
-                <td class="auto-style1"><asp:Label ID="LblDob" runat="server" Text="Date Of birth:" /></td>
-                <td><asp:TextBox ID="txtdob" runat="server"></asp:TextBox></td>
+                <td class="auto-style1"><asp:Label ID="LblDob" runat="server" Text="Date Of birth:"  /></td>
+                <td><asp:TextBox ID="txtdob" runat="server" TextMode="Date" CssClass="txtmodecolor"></asp:TextBox></td>
            </tr>
         <tr>
                 <td class="auto-style1"><asp:Label ID="lblPhone" runat="server" Text="Phone Number:" /></td>
-                <td><asp:TextBox ID="txtphonenumber" runat="server"></asp:TextBox></td>
+                <td><asp:TextBox ID="txtphonenumber" runat="server" TextMode="Phone" CssClass="txtmodecolor"></asp:TextBox></td>
             </tr>
             <tr>
                 <td class="auto-style1"><asp:Label ID="lblqualification" runat="server" Text="Qualification:" /></td>
@@ -72,11 +75,11 @@
             </tr>
             <tr>
                 <td class="auto-style1"><asp:Label ID="lblemail" runat="server" Text="Email Id:" /></td>
-                <td><asp:TextBox ID="txtEmail" runat="server"></asp:TextBox></td>
+                <td><asp:TextBox ID="txtEmail" runat="server" TextMode="Email" CssClass="txtmodecolor"></asp:TextBox></td>
             </tr>
             <tr>
                 <td class="auto-style1"> <asp:Label ID="lblparentphonenumber" runat="server" Text="Parent Phone Number:" /></td>
-                <td><asp:TextBox ID="txtparentphonenumber" runat="server"></asp:TextBox></td>
+                <td><asp:TextBox ID="txtparentphonenumber" runat="server" TextMode="Phone" CssClass="txtmodecolor"></asp:TextBox></td>
             </tr>
             <tr>
                 <th class="auto-style1"><asp:Label ID="lbladdress" runat="server" Text="Address:" /></th>
@@ -85,50 +88,95 @@
                 <td class="address"><asp:Label ID="lblPermanent" runat="server" Text="Permanent:" /></td>
             </tr>
              <tr>
-                <td><asp:Label ID="lblpdrno" runat="server" Text="Dr No:" /></td>
-           <td><asp:TextBox ID="txtpdrno" runat="server"></asp:TextBox></td>
-                <td><asp:Label ID="lblpstreet" runat="server" Text="Street" /></td>
-                <td><asp:TextBox ID="txtpstreet" runat="server"></asp:TextBox></td>
-                <td><asp:Label ID="lblpcity_village" runat="server" Text="city/village:" /></td>
-                <td><asp:TextBox ID="txtcity_vilage" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblperdrno" runat="server" Text="Dr No:" /></td>
+           <td><asp:TextBox ID="txtperdrno" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblperstreet" runat="server" Text="Street" /></td>
+                <td><asp:TextBox ID="txtperstreet" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblpercity_village" runat="server" Text="city/village:" /></td>
+                <td><asp:TextBox ID="txtpercity_vilage" runat="server"></asp:TextBox></td>
             </tr>
           <tr>
-                <td><asp:Label ID="lblpdistrict" runat="server" Text="District:" /></td>
-                <td><asp:TextBox ID="txtpdistrict" runat="server"></asp:TextBox></td>
-                <td><asp:Label ID="lblpstate" runat="server" Text="State:" /></td>
-                <td><asp:TextBox ID="txtpstate" runat="server"></asp:TextBox></td>
-                <td><asp:Label ID="lblpzipcode" runat="server" Text="Zipcode:" /></td>
-                <td><asp:TextBox ID="txtpzipcode" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblperdistrict" runat="server" Text="District:" /></td>
+                <td><asp:TextBox ID="txtpersdistrict" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblperstate" runat="server" Text="State:" /></td>
+                <td><asp:TextBox ID="txtperstate" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblperzipcode" runat="server" Text="Zipcode:" /></td>
+                <td><asp:TextBox ID="txtperszipcode" runat="server" TextMode="Number" CssClass="txtmodecolor"></asp:TextBox></td>
             </tr>
         <tr>
                 <td class="address"><asp:Label ID="lblPresent" runat="server" Text="Persent:" /></td>
             </tr>
              <tr>
-                <td><asp:Label ID="lblprdrno" runat="server" Text="Dr No:" /></td>
-           <td><asp:TextBox ID="txtprdrno" runat="server"></asp:TextBox></td>
-                <td><asp:Label ID="lblprstreet" runat="server" Text="Street" /></td>
-                <td><asp:TextBox ID="txtprstreet" runat="server"></asp:TextBox></td>
-                <td><asp:Label ID="lblprcity_village" runat="server" Text="city/village:" /></td>
-                <td><asp:TextBox ID="txtprcity_village" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblpredrno" runat="server" Text="Dr No:" /></td>
+           <td><asp:TextBox ID="txtpredrno" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblprestreet" runat="server" Text="Street" /></td>
+                <td><asp:TextBox ID="txtprestreet" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblprecity_village" runat="server" Text="city/village:" /></td>
+                <td><asp:TextBox ID="txtprecity_village" runat="server"></asp:TextBox></td>
             </tr>
           <tr>
-                <td><asp:Label ID="lblprdistrict" runat="server" Text="District:" /></td>
-                <td><asp:TextBox ID="txtprdistrict" runat="server"></asp:TextBox></td>
-                <td><asp:Label ID="lblprstate" runat="server" Text="State:" /></td>
-                <td><asp:TextBox ID="txtprstate" runat="server"></asp:TextBox></td>
-                <td><asp:Label ID="lblprzipcode" runat="server" Text="Zipcode:" /></td>
-                <td><asp:TextBox ID="txtprzipcode" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblpredistrict" runat="server" Text="District:" /></td>
+                <td><asp:TextBox ID="txtpredistrict" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblprestate" runat="server" Text="State:" /></td>
+                <td><asp:TextBox ID="txtprestate" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblprezipcode" runat="server" Text="Zipcode:" /></td>
+                <td><asp:TextBox ID="txtprezipcode" runat="server" TextMode="Number" CssClass="txtmodecolor"></asp:TextBox></td>
             </tr>
+        <tr>
+                <th class="auto-style1"><asp:Label ID="lblCourseDetails" runat="server" Text="Course Details:" /></th>
+            </tr>
+            <tr>
+                <td class="address"><asp:Label ID="lblCourses" runat="server" Text="Courses:" /></td>
+            </tr>
+       <tr>
+           <td>
+               <asp:CheckBoxList ID="chbCoursesList" runat="server" Width="164px">
+                <asp:ListItem>MANUAL TESTING</asp:ListItem>
+                   <asp:ListItem>QTP</asp:ListItem>
+                   <asp:ListItem>SELENIUM</asp:ListItem>
+                   <asp:ListItem>ETL TESTING</asp:ListItem>
+                   <asp:ListItem>APPIUM</asp:ListItem>
+                   <asp:ListItem>VSTA/JMETER</asp:ListItem>
+                   <asp:ListItem>SELENIUM-PROJ</asp:ListItem>
+                   <asp:ListItem>APPIUM</asp:ListItem>
+                   <asp:ListItem>NET</asp:ListItem>
+                   <asp:ListItem>C/CRT</asp:ListItem>
+                   <asp:ListItem>MANUAL PROJ</asp:ListItem>
+                   <asp:ListItem>LOADRUNNER</asp:ListItem>
+                  </asp:CheckBoxList>
+                   
+              </td>
+       </tr>
+        <tr>
+                <td class="address"><asp:Label ID="lblTypeOfBatch" runat="server" Text="Type Of Batch:" /></td>
+            </tr>
+       <tr>
+           <td>
+               <asp:CheckBoxList ID="ChbTypeOfbatchList" runat="server" Width="164px">
+                <asp:ListItem>Regular</asp:ListItem>
+                   <asp:ListItem>Fast Tarck</asp:ListItem>
+                   <asp:ListItem>Weekend</asp:ListItem>
+                   <asp:ListItem>Special class</asp:ListItem>
+                   <asp:ListItem>Evening</asp:ListItem>
+                   </asp:CheckBoxList>
+                   
+              </td>
+       </tr>
        <tr>
            <td></td><td></td>
            <td>
-               <asp:Button ID="btnSubmit" runat="server" Text="Submit" /></td>
+               <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" /></td>
            <td></td>
            <td>
                    <asp:Button ID="btnReset" runat="server" Text="Reset" /></td>
        </tr>
 
    </table>
+        <div>
+          <asp:Image  runat="server" src="image\download.png"  ID="imagecorrect" />  <asp:Label ID="lblstatus" runat="server" ForeColor="Red" />
+        </div>
+            
     </form>
+    
 </body>
 </html>
