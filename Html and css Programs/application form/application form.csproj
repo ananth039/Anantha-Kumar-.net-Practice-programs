@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="4e75eee09dfa778ee05393aed3998ab3.png" />
+    <Content Include="download.png" />
     <Content Include="external Style sheet.css" />
     <Content Include="image\download.png" />
     <Content Include="image\QT-Logo.png" />

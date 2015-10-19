@@ -176,7 +176,7 @@
           <asp:Image  runat="server" src="image\download.png"  ID="imagecorrect" />  <asp:Label ID="lblstatus" runat="server" Font-Size="Larger" ForeColor="Red" />
         </div>
             
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+     
             
     </form>
     
