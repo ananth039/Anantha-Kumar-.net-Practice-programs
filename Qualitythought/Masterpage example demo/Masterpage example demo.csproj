@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0A52C80B-B1D6-42D4-9994-F50323E523AD}</ProjectGuid>
+    <ProjectGuid>{07DC4EEF-1AED-4CFE-BD6A-217DBE85E107}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>application_form</RootNamespace>
-    <AssemblyName>application form</AssemblyName>
+    <RootNamespace>Masterpage_example_demo</RootNamespace>
+    <AssemblyName>Masterpage example demo</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,28 +57,43 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="4e75eee09dfa778ee05393aed3998ab3.png" />
-    <Content Include="external Style sheet.css" />
-    <Content Include="image\download.png" />
-    <Content Include="image\QT-Logo.png" />
-    <Content Include="Quality Thought Appllication.aspx" />
-    <Content Include="packages.config" />
-    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
-    <Content Include="Scripts\jquery-2.1.4.js" />
-    <Content Include="Scripts\jquery-2.1.4.min.js" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="About us.aspx" />
+    <Content Include="default.css" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\overlay.png" />
+    <Content Include="images\pic01.jpg" />
+    <Content Include="images\pic02.jpg" />
+    <Content Include="images\pic03.jpg" />
+    <Content Include="images\QT-Logo.png" />
+    <Content Include="overlay.png" />
+    <Content Include="pic01.jpg" />
+    <Content Include="pic02.jpg" />
+    <Content Include="pic03.jpg" />
+    <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Quality Thought Appllication.aspx.cs">
-      <DependentUpon>Quality Thought Appllication.aspx</DependentUpon>
+    <Compile Include="About us.aspx.cs">
+      <DependentUpon>About us.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Quality Thought Appllication.aspx.designer.cs">
-      <DependentUpon>Quality Thought Appllication.aspx</DependentUpon>
+    <Compile Include="About us.aspx.designer.cs">
+      <DependentUpon>About us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -89,13 +104,25 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\jquery-2.1.4.min.map" />
+    <Content Include="Site1.Master" />
+    <Content Include="fonts\fontawesome-social-webfont.eot" />
+    <Content Include="fonts\fontawesome-social-webfont.svg" />
+    <Content Include="fonts\fontawesome-social-webfont.ttf" />
+    <Content Include="fonts\fontawesome-social-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fdhdf\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -110,9 +137,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1508</DevelopmentServerPort>
+          <DevelopmentServerPort>3321</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:1508/</IISUrl>
+          <IISUrl>http://localhost:3321/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

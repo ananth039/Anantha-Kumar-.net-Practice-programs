@@ -15,7 +15,7 @@
        
    <table align="center" style="height: 1150px">
        <tr>
-                <td class="auto-style1"><img src="4e75eee09dfa778ee05393aed3998ab3.png" /></td>
+                <td class="auto-style1"><img src="images/QT-Logo.png" /></td>
                 <td></td>
            
                 <td colspan="3"><h1> <asp:Label ID="LblInstituteName" runat="server" Text="QUALITY THOUGHT"></asp:Label></h1></td>
@@ -172,9 +172,11 @@
        </tr>
 
    </table>
-        <div>
-          <asp:Image  runat="server" src="image\download.png"  ID="imagecorrect" />  <asp:Label ID="lblstatus" runat="server" ForeColor="Red" />
+        <div align="center">
+          <asp:Image  runat="server" src="image\download.png"  ID="imagecorrect" />  <asp:Label ID="lblstatus" runat="server" Font-Size="Larger" ForeColor="Red" />
         </div>
+            
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
             
     </form>
     

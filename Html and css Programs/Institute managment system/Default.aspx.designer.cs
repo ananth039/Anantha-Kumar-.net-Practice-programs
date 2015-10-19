@@ -292,112 +292,112 @@ namespace application_form {
         protected global::System.Web.UI.WebControls.Label lblPermanent;
         
         /// <summary>
-        /// lblperdrno control.
+        /// lblpdrno control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblperdrno;
+        protected global::System.Web.UI.WebControls.Label lblpdrno;
         
         /// <summary>
-        /// txtperdrno control.
+        /// txtpdrno control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtperdrno;
+        protected global::System.Web.UI.WebControls.TextBox txtpdrno;
         
         /// <summary>
-        /// lblperstreet control.
+        /// lblpstreet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblperstreet;
+        protected global::System.Web.UI.WebControls.Label lblpstreet;
         
         /// <summary>
-        /// txtperstreet control.
+        /// txtpstreet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtperstreet;
+        protected global::System.Web.UI.WebControls.TextBox txtpstreet;
         
         /// <summary>
-        /// lblpercity_village control.
+        /// lblpcity_village control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblpercity_village;
+        protected global::System.Web.UI.WebControls.Label lblpcity_village;
         
         /// <summary>
-        /// txtpercity_vilage control.
+        /// txtcity_vilage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpercity_vilage;
+        protected global::System.Web.UI.WebControls.TextBox txtcity_vilage;
         
         /// <summary>
-        /// lblperdistrict control.
+        /// lblpdistrict control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblperdistrict;
+        protected global::System.Web.UI.WebControls.Label lblpdistrict;
         
         /// <summary>
-        /// txtpersdistrict control.
+        /// txtpdistrict control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpersdistrict;
+        protected global::System.Web.UI.WebControls.TextBox txtpdistrict;
         
         /// <summary>
-        /// lblperstate control.
+        /// lblpstate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblperstate;
+        protected global::System.Web.UI.WebControls.Label lblpstate;
         
         /// <summary>
-        /// txtperstate control.
+        /// txtpstate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtperstate;
+        protected global::System.Web.UI.WebControls.TextBox txtpstate;
         
         /// <summary>
-        /// lblperzipcode control.
+        /// lblpzipcode control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblperzipcode;
+        protected global::System.Web.UI.WebControls.Label lblpzipcode;
         
         /// <summary>
-        /// txtperszipcode control.
+        /// txtpzipcode control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtperszipcode;
+        protected global::System.Web.UI.WebControls.TextBox txtpzipcode;
         
         /// <summary>
         /// lblPresent control.
@@ -409,157 +409,112 @@ namespace application_form {
         protected global::System.Web.UI.WebControls.Label lblPresent;
         
         /// <summary>
-        /// lblpredrno control.
+        /// lblprdrno control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblpredrno;
+        protected global::System.Web.UI.WebControls.Label lblprdrno;
         
         /// <summary>
-        /// txtpredrno control.
+        /// txtprdrno control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpredrno;
+        protected global::System.Web.UI.WebControls.TextBox txtprdrno;
         
         /// <summary>
-        /// lblprestreet control.
+        /// lblprstreet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblprestreet;
+        protected global::System.Web.UI.WebControls.Label lblprstreet;
         
         /// <summary>
-        /// txtprestreet control.
+        /// txtprstreet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtprestreet;
+        protected global::System.Web.UI.WebControls.TextBox txtprstreet;
         
         /// <summary>
-        /// lblprecity_village control.
+        /// lblprcity_village control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblprecity_village;
+        protected global::System.Web.UI.WebControls.Label lblprcity_village;
         
         /// <summary>
-        /// txtprecity_village control.
+        /// txtprcity_village control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtprecity_village;
+        protected global::System.Web.UI.WebControls.TextBox txtprcity_village;
         
         /// <summary>
-        /// lblpredistrict control.
+        /// lblprdistrict control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblpredistrict;
+        protected global::System.Web.UI.WebControls.Label lblprdistrict;
         
         /// <summary>
-        /// txtpredistrict control.
+        /// txtprdistrict control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpredistrict;
+        protected global::System.Web.UI.WebControls.TextBox txtprdistrict;
         
         /// <summary>
-        /// lblprestate control.
+        /// lblprstate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblprestate;
+        protected global::System.Web.UI.WebControls.Label lblprstate;
         
         /// <summary>
-        /// txtprestate control.
+        /// txtprstate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtprestate;
+        protected global::System.Web.UI.WebControls.TextBox txtprstate;
         
         /// <summary>
-        /// lblprezipcode control.
+        /// lblprzipcode control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblprezipcode;
+        protected global::System.Web.UI.WebControls.Label lblprzipcode;
         
         /// <summary>
-        /// txtprezipcode control.
+        /// txtprzipcode control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtprezipcode;
-        
-        /// <summary>
-        /// lblCourseDetails control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCourseDetails;
-        
-        /// <summary>
-        /// lblCourses control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCourses;
-        
-        /// <summary>
-        /// chbCoursesList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList chbCoursesList;
-        
-        /// <summary>
-        /// lblTypeOfBatch control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTypeOfBatch;
-        
-        /// <summary>
-        /// ChbTypeOfbatchList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList ChbTypeOfbatchList;
+        protected global::System.Web.UI.WebControls.TextBox txtprzipcode;
         
         /// <summary>
         /// btnSubmit control.
@@ -578,32 +533,5 @@ namespace application_form {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnReset;
-        
-        /// <summary>
-        /// imagecorrect control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imagecorrect;
-        
-        /// <summary>
-        /// lblstatus control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblstatus;
-        
-        /// <summary>
-        /// Label1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
     }
 }

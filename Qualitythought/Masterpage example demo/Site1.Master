@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Masterpage_example_demo.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+
+
+
+  
+</head>
+<body>
+    <form>
+		<div>
+              <asp:Menu ID="Menu1" runat="server" BackColor="#66cc99" Height="25px" Orientation="Horizontal"
+                            Width="100%" BorderColor="#400000" ForeColor="black">
+                            <Items>
+                                <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/home.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ABOUT US" Value="ABOUT US" NavigateUrl="~/AboutUs.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="CONTACT US" Value="CONTACT US" NavigateUrl="~/contactUs.aspx"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+		</div>
+	</div>
+   
+	<div style="background-color:white">
+ <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+ </asp:ContentPlaceHolder>
+    </div>
+ 
+        </form>
+</body>
+</html>

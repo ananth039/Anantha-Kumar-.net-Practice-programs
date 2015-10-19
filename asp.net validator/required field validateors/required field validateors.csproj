@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0A52C80B-B1D6-42D4-9994-F50323E523AD}</ProjectGuid>
+    <ProjectGuid>{D56A5810-2617-4F7C-8B40-5B43A9A204D9}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>application_form</RootNamespace>
-    <AssemblyName>application form</AssemblyName>
+    <RootNamespace>required_field_validateors</RootNamespace>
+    <AssemblyName>required field validateors</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,28 +57,30 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="4e75eee09dfa778ee05393aed3998ab3.png" />
-    <Content Include="external Style sheet.css" />
-    <Content Include="image\download.png" />
-    <Content Include="image\QT-Logo.png" />
-    <Content Include="Quality Thought Appllication.aspx" />
+    <Content Include="Reqired field validator.aspx" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="validator2.aspx" />
+    <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Quality Thought Appllication.aspx.cs">
-      <DependentUpon>Quality Thought Appllication.aspx</DependentUpon>
+    <Compile Include="Reqired field validator.aspx.cs">
+      <DependentUpon>Reqired field validator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Quality Thought Appllication.aspx.designer.cs">
-      <DependentUpon>Quality Thought Appllication.aspx</DependentUpon>
+    <Compile Include="Reqired field validator.aspx.designer.cs">
+      <DependentUpon>Reqired field validator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="validator2.aspx.cs">
+      <DependentUpon>validator2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="validator2.aspx.designer.cs">
+      <DependentUpon>validator2.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -110,9 +112,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1508</DevelopmentServerPort>
+          <DevelopmentServerPort>3427</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:1508/</IISUrl>
+          <IISUrl>http://localhost:3427/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
