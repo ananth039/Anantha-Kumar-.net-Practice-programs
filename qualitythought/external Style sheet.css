@@ -1,0 +1,56 @@
+﻿        body
+        {
+           background-color:teal;
+
+        }
+        img
+        {
+            width:42px;
+            height:40px;
+            border-radius:50%;
+        }
+        h1
+        {
+            color:cyan;
+            font-family:'Times New Roman';
+            font-size:x-large;
+        }
+      tr 
+        {
+           color: greenyellow;
+            font-family: Tahoma;
+        }
+      .address
+      {
+           color: blue;
+            font-family: Tahoma;
+            background-color:silver;
+      }
+            th 
+            {
+               color:white;
+               background-color:orange;
+              font-family:'Lucida Sans';
+              font-size:medium;
+            }
+           
+        input[type=submit], input[type=reset] {
+            color: red;
+            font-family: Tahoma;
+            font-size: large;
+          padding:10px 10px 10px 10px;
+            margin:20px 20px 20px 20px;
+        }
+        input[type=text], input[type=checkbox], select {
+            border: 1px solid #ff00dc;
+            color: red;
+            background-color: #ddedf1;
+        }
+        .txtmodecolor
+        {
+            border: 1px solid #ff00dc;
+            color: red;
+            background-color: #ddedf1;
+        }
+        
+      

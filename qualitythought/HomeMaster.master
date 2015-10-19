@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomeMaster.master.cs" Inherits="HomeMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+          
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style3 {
+            height: 42px;
+        }
+        .auto-style4 {
+            height: 23px;
+        }
+        a
+        {
+            text-decoration:none;
+           
+           font-family:Tahoma;
+           font-size:large;
+            color:orange;
+            transform-style:preserve-3d;
+            
+           
+           
+        }
+        .header
+        {
+            background-image:url("images (3).jpg");
+             text-align:center;
+            
+        }
+        .footer
+        {
+            background-image:url("images (4).jpg");
+            text-align:center;
+            height:100px;
+        }
+
+a:hover {color: blue;background-image:url(images.jpg)}
+
+
+a:active {color:green;}
+.sideheading
+{
+    font-family: Tahoma; font-weight: bold; font-style: normal; font-variant: normal; text-transform: none; color: #FFFFFF;
+}
+.fontcolor
+{
+    color:lightgreen;
+}
+.headingform
+{
+    font-style:normal;
+    font-weight:bold;
+    color:#ff0000;
+    font-family:Tahoma;
+   
+    
+}
+input[type=submit], input[type=reset] {
+            color: red;
+            font-family: Tahoma;
+            font-size: large;
+          padding:10px 10px 10px 10px;
+            margin:20px 20px 20px 20px;
+        }
+        input[type=text], input[type=checkbox], select {
+            border: 1px solid #ff00dc;
+            color: red;
+            background-color: #ddedf1;
+        }
+        .txtmodecolor
+        {
+            border: 1px solid #ff00dc;
+            color: red;
+            background-color: #ddedf1;
+        }
+        #form1 {
+            background-image: url("15-icon-patterns.jpg");
+        }
+        
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+    <table class="auto-style1">
+        <tr class="header">
+            <td colspan="4" class="auto-style4">
+                <asp:Image ID="imglogo"  runat="server" ImageAlign="Left" ImageUrl="~/QT-Logo.png" Height="100px" />
+                <asp:Image ID="Imglogo2" ImageAlign="Middle" runat="server" Height="83px" ImageUrl="~/coollogo_com-94935088.gif" style="margin-bottom: 0px; margin-left: 39px;" Width="1001px" /><br />
+            </td>
+        </tr>
+      
+        <tr class="header">
+            <td ><a href="Home.aspx" >Home</a></td>
+            <td ><a href="LoginPage.aspx">Login</a></td>
+            <td ><a href="Registartionpage.aspx">Registartion</a></td>
+            <td ><a href="Students.aspx">Students</a></td>
+        </tr>
+    
+        <tr>
+            <td  colspan="4" class="auto-style3">&nbsp;
+               
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                <br /> <br />
+                <br />
+                <br /><br /><br />   <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br /><br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </td>
+        </tr>
+       
+             
+            <tr class="footer" >
+                <td colspan="4">&copy; All rights Reserved&nbsp;</td>
+            </tr>
+        </table>
+        </form>
+    
+</body>
+</html>
