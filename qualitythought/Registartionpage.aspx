@@ -14,9 +14,10 @@
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div>
-   
-    
+    <div align="center">
+          <asp:Image  runat="server" ID="imagecorrect" ImageUrl="~/download.png" Height="37px" />  <asp:Label ID="lblstatus" runat="server" Font-Size="Larger" ForeColor="White" />
+        </div>
+     <div>
          
    <table align="center"  style="border-color:gold;border-style:solid;>
      
@@ -101,8 +102,14 @@
           <tr>
                 <td><asp:Label ID="lblperdistrict" runat="server" Text="District:" CssClass="fontcolor" /></td>
                 <td><asp:TextBox ID="txtpersdistrict" runat="server"></asp:TextBox></td>
-                <td><asp:Label ID="lblperstate" runat="server" Text="State:" CssClass="fontcolor" /></td>
-                <td><asp:TextBox ID="txtperstate" runat="server"></asp:TextBox></td>
+                <td><asp:Label ID="lblperstate" runat="server"  Text="State:" CssClass="fontcolor" /></td>
+                <td><asp:TextBox ID="txtperstate" list="states" runat="server"></asp:TextBox>
+              <datalist id="states">
+<option value="Andhara Pradesh">
+<option value="Telengana">
+<option value="Tamilnadu">
+</datalist>
+                </td>
                 <td><asp:Label ID="lblperzipcode" runat="server" Text="Zipcode:" CssClass="fontcolor" /></td>
                 <td><asp:TextBox ID="txtperszipcode" runat="server" TextMode="Number" CssClass="txtmodecolor"></asp:TextBox></td>
             </tr>
@@ -121,7 +128,13 @@
                 <td><asp:Label ID="lblpredistrict" runat="server" Text="District:" CssClass="fontcolor" /></td>
                 <td><asp:TextBox ID="txtpredistrict" runat="server"></asp:TextBox></td>
                 <td><asp:Label ID="lblprestate" runat="server" Text="State:" CssClass="fontcolor" /></td>
-                <td><asp:TextBox ID="txtprestate" runat="server"></asp:TextBox></td>
+                <td><asp:TextBox ID="txtprestate" list="states" runat="server"></asp:TextBox>
+                     <datalist id="states">
+<option value="Andhara Pradesh">
+<option value="Telengana">
+<option value="Tamilnadu">
+</datalist>
+                </td>
                 <td><asp:Label ID="lblprezipcode" runat="server" Text="Zipcode:" CssClass="fontcolor" /></td>
                 <td><asp:TextBox ID="txtprezipcode" runat="server" TextMode="Number" CssClass="txtmodecolor"></asp:TextBox></td>
             </tr>
@@ -171,13 +184,11 @@
                <asp:Button ID="btnSubmit" runat="server"  Text="Submit" OnClick="btnSubmit_Click1"/></td>
            <td></td>
            <td>
-                   <asp:Button ID="btnReset" runat="server"  Text="Reset" /></td>
+                   <asp:Button ID="btnReset" runat="server"  Text="Reset" OnClick="btnReset_Click" /></td>
        </tr>
 
    </table>
-        <div align="center">
-          <asp:Image   src="image\download.png" runat="server" ID="imagecorrect" />  <asp:Label ID="lblstatus" runat="server" Font-Size="Larger" ForeColor="Red" />
-        </div>
+        
             
         
             

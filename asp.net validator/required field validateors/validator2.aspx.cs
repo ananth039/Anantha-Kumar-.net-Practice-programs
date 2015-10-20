@@ -14,11 +14,20 @@ namespace required_field_validateors
 
         }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (Page.IsValid)
+            {
+               Button1.Text = "Thank You";
+            }
+            else
+            {
+                Button1.Text = "Fill up all the fields";
+            }
+        }
+
       
 
-        protected void btnSubmitForm_Click1(object sender, EventArgs e)
-        {
-            Label1.Text = "Welcome, " + Server.HtmlEncode(txtName.Text);
-        }
+
     }
 }

@@ -82,7 +82,7 @@ input[type=submit], input[type=reset] {
             color: red;
             background-color: #ddedf1;
         }
-        #form1 {
+        body {
             background-image: url("15-icon-patterns.jpg");
         }
         
