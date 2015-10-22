@@ -3,65 +3,172 @@
 <head>
     <title></title>
     <style>
-       .resize {
+       
+        table caption
+        {
+            font-family:'Lucida Sans';
+            font-size:x-large;
+            color:purple;
+        }
+        .input {
             text-align: center;
             width: 80px;
             height: 60px;
-            font-family:'Lucida Sans';
-            font-size:large;
+            font-family: 'Lucida Sans';
+            font-size: large;
+            background-color:orange;
+            color: white;
         }
-        .extend {
+        .clear {
             text-align: center;
-            width: 162px;
+            width: 80px;
             height: 60px;
             font-family: 'Lucida Sans';
             font-size: large;
+            background-color: red;
+            color: white;
+        }
+
+        .performance {
+            text-align: center;
+            width: 80px;
+            height: 60px;
+            font-family: 'Lucida Sans';
+            font-size: large;
+            background-color: green;
+            color: white;
+        }
+        .extend {
+            text-align: center;
+            width: 163px;
+            height: 60px;
+            font-family: 'Lucida Sans';
+            font-size: large;
+            background-color:blue;
+            color: white;
+        }
+
+        #btn0 {
+            text-align: center;
+            width: 163px;
+            height: 60px;
+            font-family: 'Lucida Sans';
+            font-size: large;
+            background-color:orange;
+            color: white;
         }
         input[type="text"] {
-            width: 400px;
+            width: 410px;
             height: 30px;
             font-size: large;
             font-family:Tahoma;
+            text-align:right;
+            }
+        #txtstatus
+        {
+            color:#ff00dc;
         }
     </style>
 
     <script src="Scripts/jquery-2.1.4.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            var number=0;
-            var number2 = number;
+            var number='';
+            var number2 = '';
             var operation;
-            var result;
-            var temp;
-            $(".resize").click(function () {
-                number += $(".resize").attr("value").val();
-                $("#txtResult").val(number);
+            var Result;
+           
+            $("#txtResult").val("0");
+            $(".input").click(function () {
+                if ($("#txtResult").val() =="0") {
+
+                    $("#txtResult").val($(this).val());
+                }
+                else
+
+                {
+                    number += $(this).val();
+                   
+                    $("#txtResult").val(number);
+                }
+
+            });
+            $(".performance").click(function () {
+                number2 = $("#txtResult").val();
+                $("#txtstatus").val(number2);
+                $("#txtResult").val("0");
+                operation = $(this).val();
             });
 
+
+            $(".clear").click(function () {
+
+                $("#txtResult").val("0");
+                $("#txtstatus").val("");
+                Result = "";
+                number = "";
+                number2 = "";
+
+            });
+           
+
+            $("#calculate").click(function () { 
+                switch(operation)
+                {
+                    case "+":
+                        Result =  parseFloat((number2)) + parseFloat($("#txtResult").val());
+                        $("#txtstatus").val(number2 + "+" + $("#txtResult").val());
+                        $("#txtResult").val(Result);
+                        break;
+                    case "-":
+                        Result = parseFloat((number2)) - parseFloat($("#txtResult").val());
+                        $("#txtstatus").val(number2 + "-" + $("#txtResult").val()); $("#txtResult").val(Result);
+                        break;
+                    case "*":
+                        Result = parseFloat((number2)) * parseFloat($("#txtResult").val());
+                        $("#txtstatus").val(number2 + "*" + $("#txtResult").val());
+                        $("#txtResult").val(Result);
+                        break;
+                    case "/":
+                        Result = parseFloat((number2)) / parseFloat($("#txtResult").val());
+                        $("#txtstatus").val(number2 + "/" + $("#txtResult").val());
+                        $("#txtResult").val(Result);
+                        break;
+                    case "%":
+                        Result = parseFloat((number2)) % parseFloat($("#txtResult").val());
+                        $("#txtstatus").val(number2 + "%" + $("#txtResult").val());
+                        $("#txtResult").val(Result);
+                        break;
+                }
+               
+            });
+
+          
+           
         });
     </script>
 </head>
 <body>
-    <form id="form1">
+    <form id="form1" >
         
-        <div>
+        <div align="center">
             <table>
             <caption>Calculator</caption>
                 
                 <tr>
-                <td><input id="txtstatus" type="text" /></td></tr>
-                <tr> <td><input id="txtResult" type="text" /></td></tr> 
+                <td><input id="txtstatus"  value="" type="text"  disabled/></td></tr>
+                <tr> <td><input id="txtResult" value=""  type="text"  disabled/></td></tr> 
                 <tr>
-                    <td><input id="button" type="button" value="1" class="resize" /> <input id="button" type="button" value="2" class="resize" /><input id="button" type="button" value="3" class="resize" /><input id="Button1" type="button" value="CE" class="resize" /><input id="Button1" type="button" value="C" class="resize" /></td>
+                    <td><input id="btn1" type="button" value="1" class="input" /> <input id="btn2" type="button" value="2" class="input"  /> <input id="btn3" type="button" value="3" class="input" /> <input id="btnclearEntry" type="button" value="CE"  class="clear" /> <input id="btnclear" type="button" value="C" class="clear" /></td>
                 </tr>
                 <tr>
-                    <td><input id="button" type="button" value="4" class="resize" /> <input id="button" type="button" value="5" class="resize" /><input id="button" type="button" value="6" class="resize" /><input id="Button1" type="button" value="/" class="resize" /><input id="Button1" type="button" value="-" class="resize" /></td>
+                    <td><input id="btn4" type="button" value="4" class="input" /> <input id="btn5" type="button" value="5" class="input" /> <input id="btn6" type="button" value="6" class="input" /> <input id="divide" type="button" value="/" class="performance" /> <input id="subtarct" type="button" value="-" class="performance" /></td>
+                </tr>
+                 <tr>
+                    <td><input id="btn7" type="button" value="7" class="input" /> <input id="btn8" type="button" value="8" class="input" /> <input id="btn9" type="button" value="9" class="input" /> <input id="multiply" type="button" value="*" class="performance" /> <input id="addition" type="button" value="+" class="performance" /></td>
                 </tr>
                 <tr>
-                    <td><input id="button" type="button" value="7" class="resize" /> <input id="button" type="button" value="8" class="resize" /><input id="button" type="button" value="9" class="resize" /><input id="Button1" type="button" value="*" class="resize" /><input id="Button1" type="button" value="+" class="resize" /></td>
-                </tr>
-                <tr>
-                    <td><input id="button" type="button" value="0" class="extend" /><input id="Button1" type="button" value="%" class="resize" /><input id="Button1" type="button" value="=" class="extend" /></td>
+                    <td><input id="btn0" type="button" value="0" class="input" /> <input id="percentage" type="button" value="%" class ="performance" /> <input id="calculate" type="button" value="=" class="extend" /></td>
                 </tr>
                  </table>
             </div>

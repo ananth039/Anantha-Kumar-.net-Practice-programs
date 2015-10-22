@@ -1,0 +1,64 @@
+﻿  table caption
+        {
+            font-family:'Lucida Sans';
+            font-size:x-large;
+            color:purple;
+        }
+        .input {
+            text-align: center;
+            width: 80px;
+            height: 60px;
+            font-family: 'Lucida Sans';
+            font-size: large;
+            background-color:orange;
+            color: white;
+        }
+        .clear {
+            text-align: center;
+            width: 80px;
+            height: 60px;
+            font-family: 'Lucida Sans';
+            font-size: large;
+            background-color: red;
+            color: white;
+        }
+
+        .performance {
+            text-align: center;
+            width: 80px;
+            height: 60px;
+            font-family: 'Lucida Sans';
+            font-size: large;
+            background-color: green;
+            color: white;
+        }
+        .extend {
+            text-align: center;
+            width: 163px;
+            height: 60px;
+            font-family: 'Lucida Sans';
+            font-size: large;
+            background-color:blue;
+            color: white;
+        }
+
+        #btn0 {
+            text-align: center;
+            width: 163px;
+            height: 60px;
+            font-family: 'Lucida Sans';
+            font-size: large;
+            background-color:orange;
+            color: white;
+        }
+        input[type="text"] {
+            width: 410px;
+            height: 30px;
+            font-size: large;
+            font-family:Tahoma;
+            text-align:right;
+            }
+        #txtstatus
+        {
+            color:#ff00dc;
+        }

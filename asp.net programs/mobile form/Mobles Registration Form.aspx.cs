@@ -39,10 +39,12 @@ namespace mobile_form
                     {
                         int status = insertCommand.ExecuteNonQuery();
                         lblStatus.Text = status + "row is inserted sucessfully";
-                    }                    catch(Exception ex)
+                    }
+                    catch(Exception ex)
                     {
                         lblStatus.Text ="mobileId is already exist.please enter another id";
-                    }
+                    }
+
                 }
 
             }

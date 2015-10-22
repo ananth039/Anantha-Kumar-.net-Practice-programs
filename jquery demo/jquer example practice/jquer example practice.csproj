@@ -57,7 +57,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Calculator style sheet.css" />
     <Content Include="calculator using jquery.html" />
+    <Content Include="calculator jquery.js" />
+    <Content Include="calculator using external jquery file and style sheet.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="jquer example2.html" />
     <Content Include="jquery example 3.html" />
     <Content Include="jquery example 4.html" />
