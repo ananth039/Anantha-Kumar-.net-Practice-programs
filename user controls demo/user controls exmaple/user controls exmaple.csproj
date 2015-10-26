@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A1E8D522-80B6-4AF2-8E09-473BFFE26D41}</ProjectGuid>
+    <ProjectGuid>{CE5765BF-65F1-481F-B614-5AE2379F5002}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>jquer_example_practice</RootNamespace>
-    <AssemblyName>jquer example practice</AssemblyName>
+    <RootNamespace>user_controls_exmaple</RootNamespace>
+    <AssemblyName>user controls exmaple</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,29 +57,26 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Calculator style sheet.css" />
-    <Content Include="calculator using jquery.html" />
-    <Content Include="calculator jquery.js" />
-    <Content Include="calculator using external jquery file and style sheet.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="jquer example2.html" />
-    <Content Include="jquery example 3.html" />
-    <Content Include="jquery example 4.html" />
-    <Content Include="ready function example.html" />
-    <Content Include="packages.config" />
-    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
-    <Content Include="Scripts\jquery-2.1.4.js" />
-    <Content Include="Scripts\jquery-2.1.4.min.js" />
-    <Content Include="selector example %28class based%29.html" />
-    <Content Include="selector example html tag childeren elements.html" />
-    <Content Include="selector example%28id%29.html" />
-    <Content Include="universal selector example.html" />
+    <Content Include="user form.aspx" />
+    <Content Include="usercontrol.ascx" />
     <Content Include="Web.config" />
-    <Content Include="Scripts\jquery-2.1.4.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user form.aspx.cs">
+      <DependentUpon>user form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user form.aspx.designer.cs">
+      <DependentUpon>user form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrol.ascx.cs">
+      <DependentUpon>usercontrol.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrol.ascx.designer.cs">
+      <DependentUpon>usercontrol.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
@@ -102,9 +99,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>4457</DevelopmentServerPort>
+          <DevelopmentServerPort>5170</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:4457/</IISUrl>
+          <IISUrl>http://localhost:5170/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

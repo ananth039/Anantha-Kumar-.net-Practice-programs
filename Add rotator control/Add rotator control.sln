@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add rotator control", "Add rotator control\Add rotator control.csproj", "{6B3566A3-E6CA-48B2-8000-18D366BD3D53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calendar", "calendar\calendar.csproj", "{BE273E32-115D-4FD0-A03D-2552BF0CDDC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B3566A3-E6CA-48B2-8000-18D366BD3D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3566A3-E6CA-48B2-8000-18D366BD3D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3566A3-E6CA-48B2-8000-18D366BD3D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3566A3-E6CA-48B2-8000-18D366BD3D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE273E32-115D-4FD0-A03D-2552BF0CDDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE273E32-115D-4FD0-A03D-2552BF0CDDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE273E32-115D-4FD0-A03D-2552BF0CDDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE273E32-115D-4FD0-A03D-2552BF0CDDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
