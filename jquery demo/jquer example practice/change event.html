@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#input").change(function () {
+                var text = $("#input").val();
+                $("#output").val(text);
+                alert("Change event");
+            });
+            $("#input2").blur(function () {
+                var text = $("#input2").val();
+                $("#output2").val(text);
+                alert("blur event");
+            });
+
+            $("#input2").focus(function () {
+               
+                alert("focus event:please enter value");
+            });
+
+            $("#output2").keydown(function () {
+
+                alert("key down event");
+            });
+            $("#output2").keypress(function () {
+
+                alert("key press event");
+            });
+            $("#output").keyup(function () {
+
+                alert("key down event");
+            });
+
+            $("body").mouseenter(function () {
+
+                alert("mouseenter event");
+            });
+            $("body").mousedown(function () {
+
+                alert("mousedown event");
+            });
+
+            $("body").mouseleave(function () {
+
+                alert("mouseleave event");
+            });
+            $("body").mousemove(function () {
+
+                alert("mousemove( event");
+            });
+            $("body").mouseout(function () {
+
+                alert("mouseout event");
+            });
+            $("body").mouseover(function () {
+
+                alert("mouseover event");
+            });
+            $("body").mouseup(function () {
+
+                alert("mouseup event");
+            });
+
+
+
+
+        });
+    </script>
+
+</head>
+<body>
+    <h1>change event</h1>
+   Enter your Text: <input id="input" type="text" /><br />
+   Your Text: <input id="output" type="text" /><br />
+
+    <h2>blur event</h2>
+    Enter your Text: <input id="input2" type="text" /><br />
+    Your Text: <input id="output2" type="text" /><br />
+
+</body>
+</html>
