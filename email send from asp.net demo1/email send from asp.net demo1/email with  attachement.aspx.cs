@@ -14,6 +14,13 @@ namespace email_send_from_asp.net_demo1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+
+        }
+
+        protected void btnSend_Click(object sender, EventArgs e)
+        {
+
             string HostAdd = ConfigurationManager.AppSettings["Host"].ToString();
             string FromMailId = ConfigurationManager.AppSettings["FromMail"].ToString();
             string passsword = ConfigurationManager.AppSettings["password"].ToString();
@@ -28,12 +35,21 @@ namespace email_send_from_asp.net_demo1
 
             SmtpClient smtp = new SmtpClient();
             smtp.Host = HostAdd;
-            
-           
-            //attachments to add to mail
-            Attachment imgattch = new Attachment(Server.MapPath("images.jpg"));
-            imgattch.ContentId = "images.jpg";
-            mail.Attachments.Add(imgattch);
+
+
+            ////attach image to add to mail
+            //Attachment imgattch = new Attachment(Server.MapPath("images.jpg"));
+            //imgattch.ContentId = "images.jpg";
+            //mail.Attachments.Add(imgattch);
+
+
+
+            //Attach file using FileUpload Control and put the file in memory stream
+
+            if (fileupload1.HasFile)
+            {
+                mail.Attachments.Add(new Attachment(fileupload1.PostedFile.InputStream, fileupload1.FileName));
+            }
 
             //Network and security relatedn credential
             smtp.EnableSsl = true;
@@ -54,7 +70,6 @@ namespace email_send_from_asp.net_demo1
             {
                 btnSend.Text = "fail";
             }
-
 
         }
 

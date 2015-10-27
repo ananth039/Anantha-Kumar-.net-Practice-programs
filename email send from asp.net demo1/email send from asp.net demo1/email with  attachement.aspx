@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="email with image attachement.aspx.cs" Inherits="email_send_from_asp.net_demo1.email_with_image_attachement" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="email with  attachement.aspx.cs" Inherits="email_send_from_asp.net_demo1.email_with_image_attachement" %>
 
 <!DOCTYPE html>
 
@@ -12,10 +12,9 @@
         <caption>Email</caption>
     <tr>
         <td>To</td><td><asp:TextBox runat="server" ID="txtToAddress" Width="413px"></asp:TextBox></td></tr>
-        <tr> <td class="auto-style1">From</td><td class="auto-style1"><asp:TextBox runat="server" ID="txtFromAdress" Width="413px"></asp:TextBox></td></tr>
-        <tr> <td>Subject</td><td><asp:TextBox runat="server" ID="txtSubject" Height="23px" Width="413px"></asp:TextBox></td></tr>
+         <tr> <td>Subject</td><td><asp:TextBox runat="server" ID="txtSubject" Height="23px" Width="413px"></asp:TextBox></td></tr>
          <tr><td>Body</td><td><asp:TextBox ID="txtBody" runat="server" Height="66px" TextMode="MultiLine" Width="416px"></asp:TextBox></td>
-             <tr> <td>Atatchment</td><td> <asp:FileUpload ID="txtfileupload" runat="server" /></td></tr>
+             <tr> <td>Atatchment</td><td> <asp:FileUpload ID="fileupload1" runat="server" /></td></tr>
        <tr> <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

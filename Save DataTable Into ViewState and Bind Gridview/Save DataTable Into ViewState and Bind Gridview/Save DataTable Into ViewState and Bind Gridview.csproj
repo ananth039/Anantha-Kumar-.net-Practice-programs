@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="griddview without database.aspx" />
     <Content Include="gridview2 without database.aspx" />
+    <Content Include="multiplication table in grid view.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -76,6 +77,13 @@
     </Compile>
     <Compile Include="gridview2 without database.aspx.designer.cs">
       <DependentUpon>gridview2 without database.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="multiplication table in grid view.aspx.cs">
+      <DependentUpon>multiplication table in grid view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="multiplication table in grid view.aspx.designer.cs">
+      <DependentUpon>multiplication table in grid view.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">

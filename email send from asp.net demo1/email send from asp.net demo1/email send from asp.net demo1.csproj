@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="email send from asp.aspx" />
-    <Content Include="email with image attachement.aspx" />
+    <Content Include="email with  attachement.aspx" />
     <Content Include="email.aspx" />
     <Content Include="images.jpg" />
     <Content Include="Web.config" />
@@ -71,12 +71,12 @@
     <Compile Include="email send from asp.aspx.designer.cs">
       <DependentUpon>email send from asp.aspx</DependentUpon>
     </Compile>
-    <Compile Include="email with image attachement.aspx.cs">
-      <DependentUpon>email with image attachement.aspx</DependentUpon>
+    <Compile Include="email with  attachement.aspx.cs">
+      <DependentUpon>email with  attachement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="email with image attachement.aspx.designer.cs">
-      <DependentUpon>email with image attachement.aspx</DependentUpon>
+    <Compile Include="email with  attachement.aspx.designer.cs">
+      <DependentUpon>email with  attachement.aspx</DependentUpon>
     </Compile>
     <Compile Include="email.aspx.cs">
       <DependentUpon>email.aspx</DependentUpon>

@@ -31,15 +31,6 @@ namespace email_send_from_asp.net_demo1 {
         protected global::System.Web.UI.WebControls.TextBox txtToAddress;
         
         /// <summary>
-        /// txtFromAdress control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFromAdress;
-        
-        /// <summary>
         /// txtSubject control.
         /// </summary>
         /// <remarks>
@@ -58,13 +49,13 @@ namespace email_send_from_asp.net_demo1 {
         protected global::System.Web.UI.WebControls.TextBox txtBody;
         
         /// <summary>
-        /// txtfileupload control.
+        /// fileupload1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload txtfileupload;
+        protected global::System.Web.UI.WebControls.FileUpload fileupload1;
         
         /// <summary>
         /// btnSend control.
