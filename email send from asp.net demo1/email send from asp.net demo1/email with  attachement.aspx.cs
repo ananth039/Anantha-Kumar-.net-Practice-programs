@@ -51,7 +51,7 @@ namespace email_send_from_asp.net_demo1
                 mail.Attachments.Add(new Attachment(fileupload1.PostedFile.InputStream, fileupload1.FileName));
             }
 
-            //Network and security relatedn credential
+            //Network and security related credential
             smtp.EnableSsl = true;
             NetworkCredential Networkedcred = new NetworkCredential();
             Networkedcred.UserName = mail.From.Address;
