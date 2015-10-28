@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client side state amangament techniques demo", "view state managament demo1\client side state amangament techniques demo.csproj", "{A8C4C147-6313-44FC-8B2C-5CC143BE67F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server side state managament techniques", "Server side state managament techniques\Server side state managament techniques.csproj", "{37CB9F8F-E585-4E2E-8762-34AAF2534AA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A8C4C147-6313-44FC-8B2C-5CC143BE67F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C4C147-6313-44FC-8B2C-5CC143BE67F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C4C147-6313-44FC-8B2C-5CC143BE67F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CB9F8F-E585-4E2E-8762-34AAF2534AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CB9F8F-E585-4E2E-8762-34AAF2534AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CB9F8F-E585-4E2E-8762-34AAF2534AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CB9F8F-E585-4E2E-8762-34AAF2534AA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
