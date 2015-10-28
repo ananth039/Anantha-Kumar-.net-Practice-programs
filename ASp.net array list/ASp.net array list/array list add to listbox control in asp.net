@@ -1,0 +1,16 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="array list add to listbox control in asp.aspx.cs" Inherits="ASp.net_array_list.array_list_add_to_listbox_control_in_asp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+    </div>
+    </form>
+</body>
+</html>
