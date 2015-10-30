@@ -1,0 +1,6 @@
+E:\My Practice pograms\state managament demo\view state managament demo1\bin\view state managament demo1.dll.config
+E:\My Practice pograms\state managament demo\view state managament demo1\bin\view state managament demo1.dll
+E:\My Practice pograms\state managament demo\view state managament demo1\bin\view state managament demo1.pdb
+E:\My Practice pograms\state managament demo\view state managament demo1\obj\Debug\view state managament demo1.dll
+E:\My Practice pograms\state managament demo\view state managament demo1\obj\Debug\view state managament demo1.pdb
+E:\My Practice pograms\state managament demo\view state managament demo1\obj\Debug\client side state amangament techniques demo.csprojResolveAssemblyReference.cache

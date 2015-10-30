@@ -1,0 +1,6 @@
+E:\My Practice pograms\interview question\Car task\bin\Debug\Car task.exe.config
+E:\My Practice pograms\interview question\Car task\bin\Debug\Car task.exe
+E:\My Practice pograms\interview question\Car task\bin\Debug\Car task.pdb
+E:\My Practice pograms\interview question\Car task\obj\Debug\Car task.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\interview question\Car task\obj\Debug\Car task.exe
+E:\My Practice pograms\interview question\Car task\obj\Debug\Car task.pdb

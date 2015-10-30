@@ -1,0 +1,6 @@
+E:\My Practice pograms\Html and css Programs\Institute managment system\bin\Institute managment system.dll.config
+E:\My Practice pograms\Html and css Programs\Institute managment system\bin\Institute managment system.dll
+E:\My Practice pograms\Html and css Programs\Institute managment system\bin\Institute managment system.pdb
+E:\My Practice pograms\Html and css Programs\Institute managment system\obj\Debug\Institute managment system.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\Html and css Programs\Institute managment system\obj\Debug\Institute managment system.dll
+E:\My Practice pograms\Html and css Programs\Institute managment system\obj\Debug\Institute managment system.pdb

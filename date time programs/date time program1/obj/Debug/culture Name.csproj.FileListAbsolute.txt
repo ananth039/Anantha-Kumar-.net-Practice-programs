@@ -1,0 +1,3 @@
+E:\My Practice pograms\date time programs\date time program1\bin\Debug\date time program1.exe.config
+E:\My Practice pograms\date time programs\date time program1\obj\Debug\date time program1.exe
+E:\My Practice pograms\date time programs\date time program1\obj\Debug\date time program1.pdb

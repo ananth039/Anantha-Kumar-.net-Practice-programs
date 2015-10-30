@@ -1,0 +1,6 @@
+E:\My Practice pograms\gridview delete\gridview delete\bin\gridview delete.dll.config
+E:\My Practice pograms\gridview delete\gridview delete\bin\gridview delete.dll
+E:\My Practice pograms\gridview delete\gridview delete\bin\gridview delete.pdb
+E:\My Practice pograms\gridview delete\gridview delete\obj\Debug\gridview delete.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\gridview delete\gridview delete\obj\Debug\gridview delete.dll
+E:\My Practice pograms\gridview delete\gridview delete\obj\Debug\gridview delete.pdb

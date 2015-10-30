@@ -1,0 +1,6 @@
+E:\My Practice pograms\web forms in asp.net\Registration form with validation using javascript\bin\Registration form with validation using javascript.dll.config
+E:\My Practice pograms\web forms in asp.net\Registration form with validation using javascript\bin\Registration form with validation using javascript.dll
+E:\My Practice pograms\web forms in asp.net\Registration form with validation using javascript\bin\Registration form with validation using javascript.pdb
+E:\My Practice pograms\web forms in asp.net\Registration form with validation using javascript\obj\Debug\Registration form with validation using javascript.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\web forms in asp.net\Registration form with validation using javascript\obj\Debug\Registration form with validation using javascript.dll
+E:\My Practice pograms\web forms in asp.net\Registration form with validation using javascript\obj\Debug\Registration form with validation using javascript.pdb

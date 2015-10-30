@@ -1,0 +1,6 @@
+E:\My Practice pograms\Hostel Managment system\Hostel Managment system\bin\Hostel Managment system.dll.config
+E:\My Practice pograms\Hostel Managment system\Hostel Managment system\bin\Hostel Managment system.dll
+E:\My Practice pograms\Hostel Managment system\Hostel Managment system\bin\Hostel Managment system.pdb
+E:\My Practice pograms\Hostel Managment system\Hostel Managment system\obj\Debug\Hostel Managment system.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\Hostel Managment system\Hostel Managment system\obj\Debug\Hostel Managment system.dll
+E:\My Practice pograms\Hostel Managment system\Hostel Managment system\obj\Debug\Hostel Managment system.pdb

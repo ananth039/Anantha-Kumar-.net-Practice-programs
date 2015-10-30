@@ -1,0 +1,6 @@
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml writer2\bin\Debug\xml writer2.exe.config
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml writer2\bin\Debug\xml writer2.exe
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml writer2\bin\Debug\xml writer2.pdb
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml writer2\obj\Debug\xml writer2.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml writer2\obj\Debug\xml writer2.exe
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml writer2\obj\Debug\xml writer2.pdb

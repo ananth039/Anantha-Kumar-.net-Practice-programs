@@ -1,0 +1,6 @@
+E:\My Practice pograms\ado.net demo\create table in database\bin\Debug\create table in database.exe.config
+E:\My Practice pograms\ado.net demo\create table in database\bin\Debug\create table in database.exe
+E:\My Practice pograms\ado.net demo\create table in database\bin\Debug\create table in database.pdb
+E:\My Practice pograms\ado.net demo\create table in database\obj\Debug\create table in database.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\ado.net demo\create table in database\obj\Debug\create table in database.exe
+E:\My Practice pograms\ado.net demo\create table in database\obj\Debug\create table in database.pdb

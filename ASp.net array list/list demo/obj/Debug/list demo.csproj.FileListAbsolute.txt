@@ -1,0 +1,5 @@
+E:\My Practice pograms\ASp.net array list\list demo\bin\list demo.dll.config
+E:\My Practice pograms\ASp.net array list\list demo\bin\list demo.dll
+E:\My Practice pograms\ASp.net array list\list demo\bin\list demo.pdb
+E:\My Practice pograms\ASp.net array list\list demo\obj\Debug\list demo.dll
+E:\My Practice pograms\ASp.net array list\list demo\obj\Debug\list demo.pdb

@@ -1,0 +1,5 @@
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml Reader\bin\Debug\xml Reader.exe.config
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml Reader\bin\Debug\xml Reader.exe
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml Reader\bin\Debug\xml Reader.pdb
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml Reader\obj\Debug\xml Reader.exe
+E:\My Practice pograms\2-10-2015(xml Advanced concepts)\xml Reader\obj\Debug\xml Reader.pdb

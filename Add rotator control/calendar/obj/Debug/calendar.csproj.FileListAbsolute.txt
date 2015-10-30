@@ -1,0 +1,5 @@
+E:\My Practice pograms\Add rotator control\calendar\bin\calendar.dll.config
+E:\My Practice pograms\Add rotator control\calendar\bin\calendar.dll
+E:\My Practice pograms\Add rotator control\calendar\bin\calendar.pdb
+E:\My Practice pograms\Add rotator control\calendar\obj\Debug\calendar.dll
+E:\My Practice pograms\Add rotator control\calendar\obj\Debug\calendar.pdb

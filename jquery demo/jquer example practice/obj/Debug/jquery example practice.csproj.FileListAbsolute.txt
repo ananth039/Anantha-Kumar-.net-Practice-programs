@@ -1,0 +1,7 @@
+E:\My Practice pograms\jquery demo\jquer example practice\bin\calculator using external jquery file and style sheet.html
+E:\My Practice pograms\jquery demo\jquer example practice\bin\jquer example practice.dll.config
+E:\My Practice pograms\jquery demo\jquer example practice\bin\jquer example practice.dll
+E:\My Practice pograms\jquery demo\jquer example practice\bin\jquer example practice.pdb
+E:\My Practice pograms\jquery demo\jquer example practice\obj\Debug\jquer example practice.dll
+E:\My Practice pograms\jquery demo\jquer example practice\obj\Debug\jquer example practice.pdb
+E:\My Practice pograms\jquery demo\jquer example practice\obj\Debug\jquery example practice.csprojResolveAssemblyReference.cache

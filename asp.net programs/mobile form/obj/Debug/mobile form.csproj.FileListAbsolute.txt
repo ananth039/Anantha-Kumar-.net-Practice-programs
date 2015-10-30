@@ -1,0 +1,6 @@
+E:\My Practice pograms\asp.net programs\mobile form\bin\mobile form.dll.config
+E:\My Practice pograms\asp.net programs\mobile form\bin\mobile form.dll
+E:\My Practice pograms\asp.net programs\mobile form\bin\mobile form.pdb
+E:\My Practice pograms\asp.net programs\mobile form\obj\Debug\mobile form.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\asp.net programs\mobile form\obj\Debug\mobile form.dll
+E:\My Practice pograms\asp.net programs\mobile form\obj\Debug\mobile form.pdb

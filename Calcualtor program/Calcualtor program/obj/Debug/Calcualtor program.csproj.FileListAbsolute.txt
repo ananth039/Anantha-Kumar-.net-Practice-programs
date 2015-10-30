@@ -1,0 +1,6 @@
+E:\My Practice pograms\Calcualtor program\Calcualtor program\bin\Debug\Calcualtor program.exe.config
+E:\My Practice pograms\Calcualtor program\Calcualtor program\bin\Debug\Calcualtor program.exe
+E:\My Practice pograms\Calcualtor program\Calcualtor program\bin\Debug\Calcualtor program.pdb
+E:\My Practice pograms\Calcualtor program\Calcualtor program\obj\Debug\Calcualtor program.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\Calcualtor program\Calcualtor program\obj\Debug\Calcualtor program.exe
+E:\My Practice pograms\Calcualtor program\Calcualtor program\obj\Debug\Calcualtor program.pdb

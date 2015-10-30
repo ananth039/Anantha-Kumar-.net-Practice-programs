@@ -1,0 +1,9 @@
+E:\My Practice pograms\Hostel Project\Hostel managaent system\bin\Debug\Hostel managaent system.exe.config
+E:\My Practice pograms\Hostel Project\Hostel managaent system\bin\Debug\Hostel managaent system.exe
+E:\My Practice pograms\Hostel Project\Hostel managaent system\bin\Debug\Hostel managaent system.pdb
+E:\My Practice pograms\Hostel Project\Hostel managaent system\obj\Debug\Hostel managaent system.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\Hostel Project\Hostel managaent system\obj\Debug\Hostel_managaent_system.Form1.resources
+E:\My Practice pograms\Hostel Project\Hostel managaent system\obj\Debug\Hostel_managaent_system.Properties.Resources.resources
+E:\My Practice pograms\Hostel Project\Hostel managaent system\obj\Debug\Hostel managaent system.csproj.GenerateResource.Cache
+E:\My Practice pograms\Hostel Project\Hostel managaent system\obj\Debug\Hostel managaent system.exe
+E:\My Practice pograms\Hostel Project\Hostel managaent system\obj\Debug\Hostel managaent system.pdb

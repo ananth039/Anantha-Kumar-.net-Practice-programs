@@ -1,0 +1,6 @@
+E:\My Practice pograms\ado.net demo\Retrive data from table in database using SqlDataReader\obj\Debug\Retrive data from table in database using SqlDataReader.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\ado.net demo\Retrive data from table in database using SqlDataReader\bin\Debug\Retrive data from table in database using SqlDataReader.exe.config
+E:\My Practice pograms\ado.net demo\Retrive data from table in database using SqlDataReader\bin\Debug\Retrive data from table in database using SqlDataReader.exe
+E:\My Practice pograms\ado.net demo\Retrive data from table in database using SqlDataReader\bin\Debug\Retrive data from table in database using SqlDataReader.pdb
+E:\My Practice pograms\ado.net demo\Retrive data from table in database using SqlDataReader\obj\Debug\Retrive data from table in database using SqlDataReader.exe
+E:\My Practice pograms\ado.net demo\Retrive data from table in database using SqlDataReader\obj\Debug\Retrive data from table in database using SqlDataReader.pdb

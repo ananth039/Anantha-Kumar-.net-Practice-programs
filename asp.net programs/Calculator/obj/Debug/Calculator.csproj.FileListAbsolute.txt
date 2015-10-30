@@ -1,0 +1,6 @@
+E:\My Practice pograms\asp.net programs\Calculator\bin\Calculator.dll.config
+E:\My Practice pograms\asp.net programs\Calculator\bin\Calculator.dll
+E:\My Practice pograms\asp.net programs\Calculator\bin\Calculator.pdb
+E:\My Practice pograms\asp.net programs\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\asp.net programs\Calculator\obj\Debug\Calculator.dll
+E:\My Practice pograms\asp.net programs\Calculator\obj\Debug\Calculator.pdb

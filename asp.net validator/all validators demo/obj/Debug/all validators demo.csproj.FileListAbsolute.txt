@@ -1,0 +1,6 @@
+E:\My Practice pograms\asp.net validator\all validators demo\obj\Debug\all validators demo.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\asp.net validator\all validators demo\bin\all validators demo.dll.config
+E:\My Practice pograms\asp.net validator\all validators demo\bin\all validators demo.dll
+E:\My Practice pograms\asp.net validator\all validators demo\bin\all validators demo.pdb
+E:\My Practice pograms\asp.net validator\all validators demo\obj\Debug\all validators demo.dll
+E:\My Practice pograms\asp.net validator\all validators demo\obj\Debug\all validators demo.pdb

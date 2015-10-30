@@ -1,0 +1,6 @@
+E:\My Practice pograms\Qualitythought\Quality THought Student managment system\bin\Quality THought Student managment system.dll.config
+E:\My Practice pograms\Qualitythought\Quality THought Student managment system\bin\Quality THought Student managment system.dll
+E:\My Practice pograms\Qualitythought\Quality THought Student managment system\bin\Quality THought Student managment system.pdb
+E:\My Practice pograms\Qualitythought\Quality THought Student managment system\obj\Debug\Quality THought Student managment system.dll
+E:\My Practice pograms\Qualitythought\Quality THought Student managment system\obj\Debug\Quality THought Student managment system.pdb
+E:\My Practice pograms\Qualitythought\Quality THought Student managment system\obj\Debug\Quality THought Student managment system.csprojResolveAssemblyReference.cache

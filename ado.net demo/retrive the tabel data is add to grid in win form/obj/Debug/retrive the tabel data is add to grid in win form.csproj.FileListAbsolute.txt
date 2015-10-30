@@ -1,0 +1,9 @@
+E:\My Practice pograms\ado.net demo\retrive the tabel data is add to grid in win form\bin\Debug\retrive the tabel data is add to grid in win form.exe.config
+E:\My Practice pograms\ado.net demo\retrive the tabel data is add to grid in win form\bin\Debug\retrive the tabel data is add to grid in win form.exe
+E:\My Practice pograms\ado.net demo\retrive the tabel data is add to grid in win form\bin\Debug\retrive the tabel data is add to grid in win form.pdb
+E:\My Practice pograms\ado.net demo\retrive the tabel data is add to grid in win form\obj\Debug\retrive the tabel data is add to grid in win form.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\ado.net demo\retrive the tabel data is add to grid in win form\obj\Debug\retrive_the_tabel_data_is_add_to_grid_in_win_form.Form1.resources
+E:\My Practice pograms\ado.net demo\retrive the tabel data is add to grid in win form\obj\Debug\retrive_the_tabel_data_is_add_to_grid_in_win_form.Properties.Resources.resources
+E:\My Practice pograms\ado.net demo\retrive the tabel data is add to grid in win form\obj\Debug\retrive the tabel data is add to grid in win form.csproj.GenerateResource.Cache
+E:\My Practice pograms\ado.net demo\retrive the tabel data is add to grid in win form\obj\Debug\retrive the tabel data is add to grid in win form.exe
+E:\My Practice pograms\ado.net demo\retrive the tabel data is add to grid in win form\obj\Debug\retrive the tabel data is add to grid in win form.pdb

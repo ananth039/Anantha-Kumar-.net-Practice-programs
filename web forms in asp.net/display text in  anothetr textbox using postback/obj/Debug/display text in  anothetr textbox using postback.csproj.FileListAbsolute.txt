@@ -1,0 +1,6 @@
+E:\My Practice pograms\web forms in asp.net\display text in  anothetr textbox using postback\bin\display text in  anothetr textbox using postback.dll.config
+E:\My Practice pograms\web forms in asp.net\display text in  anothetr textbox using postback\bin\display text in  anothetr textbox using postback.dll
+E:\My Practice pograms\web forms in asp.net\display text in  anothetr textbox using postback\bin\display text in  anothetr textbox using postback.pdb
+E:\My Practice pograms\web forms in asp.net\display text in  anothetr textbox using postback\obj\Debug\display text in  anothetr textbox using postback.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\web forms in asp.net\display text in  anothetr textbox using postback\obj\Debug\display text in  anothetr textbox using postback.dll
+E:\My Practice pograms\web forms in asp.net\display text in  anothetr textbox using postback\obj\Debug\display text in  anothetr textbox using postback.pdb

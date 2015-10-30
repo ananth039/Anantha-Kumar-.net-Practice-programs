@@ -1,0 +1,6 @@
+E:\My Practice pograms\ado.net demo\update the tabel\bin\Debug\update the tabel.exe.config
+E:\My Practice pograms\ado.net demo\update the tabel\bin\Debug\update the tabel.exe
+E:\My Practice pograms\ado.net demo\update the tabel\bin\Debug\update the tabel.pdb
+E:\My Practice pograms\ado.net demo\update the tabel\obj\Debug\update the tabel.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\ado.net demo\update the tabel\obj\Debug\update the tabel.exe
+E:\My Practice pograms\ado.net demo\update the tabel\obj\Debug\update the tabel.pdb

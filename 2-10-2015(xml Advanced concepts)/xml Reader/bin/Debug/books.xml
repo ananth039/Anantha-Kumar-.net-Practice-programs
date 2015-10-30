@@ -1,0 +1,12 @@
+<buses>
+  <bus busnum="ratna" startingtime="11" departuretime="1">
+    <bookingtype>dlr</bookingtype>
+    <price>150</price>
+    <numofseats>50</numofseats>
+  </bus>
+  <bus busnum="rani" startingtime="12" departuretime="2">
+    <bookingtype>dlr</bookingtype>
+    <price>100</price>
+    <numofseats>60</numofseats>
+  </bus>
+</buses>

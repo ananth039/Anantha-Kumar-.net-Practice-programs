@@ -1,0 +1,7 @@
+<buses>
+  <bus busnum="1" startingtime="10" departuretime="20">
+    <bookingtype>ss</bookingtype>
+    <price>300</price>
+    <numofseats>1</numofseats>
+  </bus>
+</buses>

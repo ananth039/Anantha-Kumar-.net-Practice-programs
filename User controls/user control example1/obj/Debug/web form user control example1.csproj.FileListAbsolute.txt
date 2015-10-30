@@ -1,0 +1,6 @@
+E:\My Practice pograms\User controls\user control example1\obj\Debug\web form user control example1.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\User controls\user control example1\bin\user control example1.dll.config
+E:\My Practice pograms\User controls\user control example1\bin\user control example1.dll
+E:\My Practice pograms\User controls\user control example1\bin\user control example1.pdb
+E:\My Practice pograms\User controls\user control example1\obj\Debug\user control example1.dll
+E:\My Practice pograms\User controls\user control example1\obj\Debug\user control example1.pdb

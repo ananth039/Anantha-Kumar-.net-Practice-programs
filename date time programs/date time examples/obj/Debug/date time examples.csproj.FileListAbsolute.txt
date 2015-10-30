@@ -1,0 +1,5 @@
+E:\My Practice pograms\date time programs\date time examples\bin\Debug\date time examples.exe.config
+E:\My Practice pograms\date time programs\date time examples\bin\Debug\date time examples.exe
+E:\My Practice pograms\date time programs\date time examples\bin\Debug\date time examples.pdb
+E:\My Practice pograms\date time programs\date time examples\obj\Debug\date time examples.exe
+E:\My Practice pograms\date time programs\date time examples\obj\Debug\date time examples.pdb

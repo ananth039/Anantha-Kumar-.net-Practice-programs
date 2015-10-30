@@ -1,0 +1,6 @@
+E:\My Practice pograms\asp.net programs\WebApplication1\bin\WebApplication1.dll.config
+E:\My Practice pograms\asp.net programs\WebApplication1\bin\WebApplication1.dll
+E:\My Practice pograms\asp.net programs\WebApplication1\bin\WebApplication1.pdb
+E:\My Practice pograms\asp.net programs\WebApplication1\obj\Debug\WebApplication1.dll
+E:\My Practice pograms\asp.net programs\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\My Practice pograms\asp.net programs\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache

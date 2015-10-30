@@ -1,0 +1,9 @@
+E:\My Practice pograms\ado.net demo\student Form\bin\Debug\student Form.exe.config
+E:\My Practice pograms\ado.net demo\student Form\bin\Debug\student Form.exe
+E:\My Practice pograms\ado.net demo\student Form\bin\Debug\student Form.pdb
+E:\My Practice pograms\ado.net demo\student Form\obj\Debug\student Form.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\ado.net demo\student Form\obj\Debug\student_Form.Form1.resources
+E:\My Practice pograms\ado.net demo\student Form\obj\Debug\student_Form.Properties.Resources.resources
+E:\My Practice pograms\ado.net demo\student Form\obj\Debug\student Form.csproj.GenerateResource.Cache
+E:\My Practice pograms\ado.net demo\student Form\obj\Debug\student Form.exe
+E:\My Practice pograms\ado.net demo\student Form\obj\Debug\student Form.pdb

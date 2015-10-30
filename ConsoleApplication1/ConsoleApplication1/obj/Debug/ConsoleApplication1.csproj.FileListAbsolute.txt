@@ -1,0 +1,8 @@
+E:\My Practice pograms\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\My Practice pograms\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\My Practice pograms\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\My Practice pograms\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\My Practice pograms\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\My Practice pograms\ConsoleApplication1\ConsoleApplication1\bin\Debug\Students.xml
+E:\My Practice pograms\ConsoleApplication1\ConsoleApplication1\bin\Debug\XMLFile1.xml

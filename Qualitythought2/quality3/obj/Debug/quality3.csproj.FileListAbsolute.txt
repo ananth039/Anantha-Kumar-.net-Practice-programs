@@ -1,0 +1,6 @@
+E:\My Practice pograms\Qualitythought\quality3\bin\quality3.dll.config
+E:\My Practice pograms\Qualitythought\quality3\bin\quality3.dll
+E:\My Practice pograms\Qualitythought\quality3\bin\quality3.pdb
+E:\My Practice pograms\Qualitythought\quality3\obj\Debug\quality3.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\Qualitythought\quality3\obj\Debug\quality3.dll
+E:\My Practice pograms\Qualitythought\quality3\obj\Debug\quality3.pdb

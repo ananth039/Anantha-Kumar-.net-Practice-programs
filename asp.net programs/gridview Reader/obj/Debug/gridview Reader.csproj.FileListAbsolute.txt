@@ -1,0 +1,6 @@
+E:\My Practice pograms\asp.net programs\gridview Reader\bin\gridview Reader.dll.config
+E:\My Practice pograms\asp.net programs\gridview Reader\bin\gridview Reader.dll
+E:\My Practice pograms\asp.net programs\gridview Reader\bin\gridview Reader.pdb
+E:\My Practice pograms\asp.net programs\gridview Reader\obj\Debug\gridview Reader.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\asp.net programs\gridview Reader\obj\Debug\gridview Reader.dll
+E:\My Practice pograms\asp.net programs\gridview Reader\obj\Debug\gridview Reader.pdb

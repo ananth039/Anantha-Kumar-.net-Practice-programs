@@ -1,0 +1,6 @@
+E:\My Practice pograms\Add rotator control\Add rotator control\bin\Add rotator control.dll.config
+E:\My Practice pograms\Add rotator control\Add rotator control\bin\Add rotator control.dll
+E:\My Practice pograms\Add rotator control\Add rotator control\bin\Add rotator control.pdb
+E:\My Practice pograms\Add rotator control\Add rotator control\obj\Debug\Add rotator control.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\Add rotator control\Add rotator control\obj\Debug\Add rotator control.dll
+E:\My Practice pograms\Add rotator control\Add rotator control\obj\Debug\Add rotator control.pdb

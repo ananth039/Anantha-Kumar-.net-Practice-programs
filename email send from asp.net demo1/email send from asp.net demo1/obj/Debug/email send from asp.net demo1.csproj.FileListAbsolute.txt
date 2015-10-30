@@ -1,0 +1,6 @@
+E:\My Practice pograms\email send from asp.net demo1\email send from asp.net demo1\bin\email send from asp.net demo1.dll.config
+E:\My Practice pograms\email send from asp.net demo1\email send from asp.net demo1\bin\email send from asp.net demo1.dll
+E:\My Practice pograms\email send from asp.net demo1\email send from asp.net demo1\bin\email send from asp.net demo1.pdb
+E:\My Practice pograms\email send from asp.net demo1\email send from asp.net demo1\obj\Debug\email send from asp.net demo1.dll
+E:\My Practice pograms\email send from asp.net demo1\email send from asp.net demo1\obj\Debug\email send from asp.net demo1.pdb
+E:\My Practice pograms\email send from asp.net demo1\email send from asp.net demo1\obj\Debug\email send from asp.net demo1.csprojResolveAssemblyReference.cache

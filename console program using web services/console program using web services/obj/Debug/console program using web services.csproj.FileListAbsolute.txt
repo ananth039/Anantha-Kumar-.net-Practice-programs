@@ -1,0 +1,6 @@
+E:\My Practice pograms\console program using web services\console program using web services\bin\Debug\console program using web services.exe.config
+E:\My Practice pograms\console program using web services\console program using web services\bin\Debug\console program using web services.exe
+E:\My Practice pograms\console program using web services\console program using web services\bin\Debug\console program using web services.pdb
+E:\My Practice pograms\console program using web services\console program using web services\obj\Debug\console program using web services.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\console program using web services\console program using web services\obj\Debug\console program using web services.exe
+E:\My Practice pograms\console program using web services\console program using web services\obj\Debug\console program using web services.pdb

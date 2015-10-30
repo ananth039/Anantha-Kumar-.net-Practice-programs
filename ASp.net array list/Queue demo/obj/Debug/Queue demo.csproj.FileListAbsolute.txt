@@ -1,0 +1,5 @@
+E:\My Practice pograms\ASp.net array list\Queue demo\bin\Queue demo.dll.config
+E:\My Practice pograms\ASp.net array list\Queue demo\bin\Queue demo.dll
+E:\My Practice pograms\ASp.net array list\Queue demo\bin\Queue demo.pdb
+E:\My Practice pograms\ASp.net array list\Queue demo\obj\Debug\Queue demo.dll
+E:\My Practice pograms\ASp.net array list\Queue demo\obj\Debug\Queue demo.pdb

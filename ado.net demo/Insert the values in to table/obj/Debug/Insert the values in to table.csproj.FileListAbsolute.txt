@@ -1,0 +1,6 @@
+E:\My Practice pograms\ado.net demo\Insert the values in to table\bin\Debug\Insert the values in to table.exe.config
+E:\My Practice pograms\ado.net demo\Insert the values in to table\bin\Debug\Insert the values in to table.exe
+E:\My Practice pograms\ado.net demo\Insert the values in to table\bin\Debug\Insert the values in to table.pdb
+E:\My Practice pograms\ado.net demo\Insert the values in to table\obj\Debug\Insert the values in to table.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\ado.net demo\Insert the values in to table\obj\Debug\Insert the values in to table.exe
+E:\My Practice pograms\ado.net demo\Insert the values in to table\obj\Debug\Insert the values in to table.pdb

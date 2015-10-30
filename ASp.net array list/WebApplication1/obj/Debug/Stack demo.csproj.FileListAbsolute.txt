@@ -1,0 +1,6 @@
+E:\My Practice pograms\ASp.net array list\WebApplication1\bin\WebApplication1.dll.config
+E:\My Practice pograms\ASp.net array list\WebApplication1\bin\WebApplication1.dll
+E:\My Practice pograms\ASp.net array list\WebApplication1\bin\WebApplication1.pdb
+E:\My Practice pograms\ASp.net array list\WebApplication1\obj\Debug\Stack demo.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\ASp.net array list\WebApplication1\obj\Debug\WebApplication1.dll
+E:\My Practice pograms\ASp.net array list\WebApplication1\obj\Debug\WebApplication1.pdb

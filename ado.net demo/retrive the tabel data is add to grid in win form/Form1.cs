@@ -28,5 +28,10 @@ namespace retrive_the_tabel_data_is_add_to_grid_in_win_form
                 dataGridView1.DataSource = table;
             }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
