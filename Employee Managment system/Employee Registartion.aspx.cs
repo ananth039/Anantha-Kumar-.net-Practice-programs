@@ -23,8 +23,7 @@ public partial class Employee_Registartion : System.Web.UI.Page
     }
     protected void btnReset_Click(object sender, EventArgs e)
     {
-        txtFullName.Text =string.Empty;
-
+        txtFullName.Text = string.Empty;
         rbmale.Checked= false;
         rbFemale.Checked = false;
         txtDateOfBirth.Text = string.Empty;
@@ -40,27 +39,22 @@ public partial class Employee_Registartion : System.Web.UI.Page
     }
     protected void btnRegister_Click(object sender, EventArgs e)
     {
-        //string Name = txtFullName.Text;
+      
       string Gender = null;
-        //string dob = txtDateOfBirth.Text;
-        //string Designation = DdlDesignation.SelectedItem.Value;
-        //string Email = txtEmail.Text;
-        //string MobileNo = txtphno.Text;
-        //string address = txtAddress.Text;
-        //string username = txtUserName.Text;
-        //string password = txtPassword.Text;
-        //string conformpassword =txtConformPassword.Text;
-        //string SecurityQuestion = DdlSecurityQuestion.SelectedItem.Value;
-        //string Answer=txtSecurityQuestionanswer.Text;
+       
         
 
         if(rbmale.Checked==true)
         {
             Gender ="Male";
         }
-        else
+        else if(rbmale.Checked==true)
         {
             Gender = "female";
+        }
+        else
+        {
+           lblgenderError.Text="please select any one of the field";
         }
 
         string connectionstring = ConfigurationManager.ConnectionStrings["Employee"].ConnectionString;

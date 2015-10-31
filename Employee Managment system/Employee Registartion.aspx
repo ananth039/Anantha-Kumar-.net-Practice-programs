@@ -39,7 +39,9 @@
                 <asp:RadioButton ID="rbmale" runat="server" Text="Male"  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:RadioButton ID="rbFemale" runat="server"  Text="Female"/>
             </td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:Label ID="lblgenderError" runat="server"  CssClass="ERRORMESSAGE"></asp:Label>
+            </td>
         </tr>
         <tr>
             <td>
@@ -128,6 +130,7 @@
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RFVpassword" runat="server" ControlToValidate="txtPassword" ErrorMessage="please enter your password" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" CssClass="ERRORMESSAGE" ControlToValidate="txtPassword" runat="server"  ErrorMessage="password should be contain one Captial letter,one small letter,one number,one special symbol" ValidationExpression="^[a-zA-Z0-9@$]+$"></asp:RegularExpressionValidator>
             </td>
             
         </tr>
