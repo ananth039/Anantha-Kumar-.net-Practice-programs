@@ -16,11 +16,12 @@
         {
             color:red;
         }
+        
     </style>
     
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <table class="auto-style1" align="center">
+   <div align="center"> <table class="auto-style1" >
         <caption>Employee Registration</caption>
         <tr>
             <td>
@@ -29,7 +30,11 @@
             <td>
                 <asp:TextBox ID="txtFullName" placeholder="Full Name" runat="server" Width="239px"></asp:TextBox>
             </td>
-            <td><asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="please enter full Name" ControlToValidate="txtFullName" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator></td>
+            <td>
+                 <asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="please enter full Name" ControlToValidate="txtFullName" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
+                  <asp:RegularExpressionValidator ID="RfvUsername" runat="server" ControlToValidate="txtFullName" ErrorMessage="please enter alphabets only" ValidationExpression="^[a-zA-z]+$" CssClass="ERRORMESSAGE"></asp:RegularExpressionValidator>
+             
+            </td>
         </tr>
         <tr>
             <td>
@@ -86,6 +91,7 @@
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RFVEmail" runat="server" ControlToValidate="txtEmail" ErrorMessage="please enter Email id" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="REVEmail"  ControlToValidate="txtEmail" runat="server" ValidationExpression="^[a-zA-z0-9]+@+[a-zA-Z]+.+[com]$" ErrorMessage="please enter valid email id" CssClass="ERRORMESSAGE"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
@@ -97,6 +103,7 @@
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RFVPhno" ControlToValidate="txtphno" runat="server" ErrorMessage="please enter phone number" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="REVPhno" runat="server" ControlToValidate="txtphno" CssClass="ERRORMESSAGE" ErrorMessage="phone Number contains only digits and length is 10 digits"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
@@ -119,6 +126,7 @@
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RFVuseranme" runat="server" ControlToValidate="txtUserName" ErrorMessage="Please enter user name" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="should be User name contains alphabets and numbers" CssClass="ERRORMESSAGE" ValidationExpression="^[a-z]+[0-9]*$"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
@@ -192,5 +200,6 @@
             </td>
         </tr>
     </table>
+       </div>
 </asp:Content>
 
