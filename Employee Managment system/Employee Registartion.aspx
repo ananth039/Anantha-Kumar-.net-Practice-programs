@@ -31,8 +31,8 @@
                 <asp:TextBox ID="txtFullName" placeholder="Full Name" runat="server" Width="239px"></asp:TextBox>
             </td>
             <td>
-                 <asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="please enter full Name" ControlToValidate="txtFullName" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
-                  <asp:RegularExpressionValidator ID="RfvUsername" runat="server" ControlToValidate="txtFullName" ErrorMessage="please enter alphabets only" ValidationExpression="^[a-zA-z]+$" CssClass="ERRORMESSAGE"></asp:RegularExpressionValidator>
+                 <asp:RequiredFieldValidator ID="rfvName" runat="server"  ErrorMessage="please enter full Name" ControlToValidate="txtFullName" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
+                  <asp:RegularExpressionValidator ID="RfvUsername" runat="server" ControlToValidate="txtFullName" ErrorMessage="please enter alphabets only" ValidationExpression="^[a-zA-Z]+$" CssClass="ERRORMESSAGE"></asp:RegularExpressionValidator>
              
             </td>
         </tr>
@@ -103,7 +103,7 @@
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RFVPhno" ControlToValidate="txtphno" runat="server" ErrorMessage="please enter phone number" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
-                <asp:RegularExpressionValidator ID="REVPhno" runat="server" ControlToValidate="txtphno" CssClass="ERRORMESSAGE" ErrorMessage="phone Number contains only digits and length is 10 digits"></asp:RegularExpressionValidator>
+                <asp:RegularExpressionValidator ID="REVPhno" runat="server" ControlToValidate="txtphno" CssClass="ERRORMESSAGE" ErrorMessage="phone Number contains only digits and length is 10 digits" ValidationExpression="^[0-9]{10}"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
@@ -126,7 +126,7 @@
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RFVuseranme" runat="server" ControlToValidate="txtUserName" ErrorMessage="Please enter user name" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
-                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="should be User name contains alphabets and numbers" CssClass="ERRORMESSAGE" ValidationExpression="^[a-z]+[0-9]*$"></asp:RegularExpressionValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtUserName" ErrorMessage="should be User name contains alphabets and numbers" CssClass="ERRORMESSAGE" ValidationExpression="^[a-z]+[0-9]*$"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
@@ -138,7 +138,7 @@
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RFVpassword" runat="server" ControlToValidate="txtPassword" ErrorMessage="please enter your password" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
-                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" CssClass="ERRORMESSAGE" ControlToValidate="txtPassword" runat="server"  ErrorMessage="password should be contain one Captial letter,one small letter,one number,one special symbol" ValidationExpression="^[a-zA-Z0-9@$]+$"></asp:RegularExpressionValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" CssClass="ERRORMESSAGE" ControlToValidate="txtPassword" runat="server"  ErrorMessage="password should be contain one Captial letter,one small letter,one number,one special symbol and password length between 8 to 20" ValidationExpression="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,20}$"></asp:RegularExpressionValidator>
             </td>
             
         </tr>
@@ -152,7 +152,7 @@
             <td class="auto-style2">
                 <asp:RequiredFieldValidator ID="RFVconformPassword" runat="server" ControlToValidate="txtConformPassword" ErrorMessage="please Re enter your Password" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
                 <asp:CompareValidator ID="CVpassword" runat="server" ControlToValidate="txtConformPassword" ControlToCompare="txtPassword" ErrorMessage="password and conform password should be same" CssClass="ERRORMESSAGE"></asp:CompareValidator>
-             </td>
+               </td>
             
         </tr>
         <tr>
