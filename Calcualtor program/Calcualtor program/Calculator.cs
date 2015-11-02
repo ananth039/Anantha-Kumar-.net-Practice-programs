@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calcualtor_program
 {
-    class Calculator
+    public class Calculator
     {
        
         public double Addition(double a, double b)
@@ -23,6 +23,10 @@ namespace Calcualtor_program
         }
         public double Division(double a, double b)
         {
+            if(b==0)
+            {
+                throw new DivideByZeroException();
+            }
             return a / b;
         }
         public double Percentage(double a, double b)
