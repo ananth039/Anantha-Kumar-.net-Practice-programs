@@ -1,7 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HomeMaster.master" AutoEventWireup="true" CodeFile="Employee Registartion.aspx.cs" Inherits="Employee_Registartion" %>
-
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-    <script src="Scripts/jquery-2.1.4.min.js"></script>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="EmpRegistration.aspx.cs" Inherits="Employee_Registartion.EmpRegistration" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style1 {
             height: 23px;
@@ -18,10 +16,9 @@
         }
         
     </style>
-    
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div align="center"> <table class="auto-style1" >
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div align="center"> <table class="auto-style1" >
         <caption>Employee Registration</caption>
         <tr>
             <td>
@@ -205,4 +202,3 @@
     </table>
        </div>
 </asp:Content>
-

@@ -1,7 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HomeMaster.master" AutoEventWireup="true" CodeFile="Employee Registartion.aspx.cs" Inherits="Employee_Registartion" %>
-
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-    <script src="Scripts/jquery-2.1.4.min.js"></script>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="EditDetails.aspx.cs" Inherits="Employee_Registartion.EditDetails" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style1 {
             height: 23px;
@@ -18,9 +16,8 @@
         }
         
     </style>
-    
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div align="center"> <table class="auto-style1" >
         <caption>Employee Registration</caption>
         <tr>
@@ -137,7 +134,7 @@
                 <asp:Label ID="lblPassword" runat="server" Text="Password"></asp:Label>
             </td>
              <td>
-                <asp:TextBox ID="txtPassword" runat="server"  placeholder="Password" Width="239px" TextMode="Password"></asp:TextBox>
+                <asp:TextBox ID="txtPassword" runat="server"  placeholder="Password" Width="239px"></asp:TextBox>
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RFVpassword" runat="server" ControlToValidate="txtPassword" ErrorMessage="please enter your password" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
@@ -192,8 +189,8 @@
         <tr>
             <td class="auto-style1"></td>
             <td class="auto-style1">
-                <asp:Button ID="btnRegister" runat="server" Text="Register" Width="101px" OnClick="btnRegister_Click" />
-                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<asp:Button ID="btnReset" runat="server" Text="Reset" Width="90px" OnClick="btnReset_Click" />
+                <asp:Button ID="btnUpdate" runat="server" Text="Update" Width="101px" OnClick="btnUpdate_Click"  />
+                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<asp:Button ID="Delete" runat="server" Text="Delete" Width="90px" />
             </td>
             <td class="auto-style1">&nbsp;</td>
         </tr>
@@ -204,5 +201,6 @@
         </tr>
     </table>
        </div>
-</asp:Content>
 
+
+</asp:Content>

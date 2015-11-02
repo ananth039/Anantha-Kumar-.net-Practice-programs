@@ -28,28 +28,18 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div align="center">
+ <form id="form1" runat="server">
+    <div>
 
 
-       
-
-
-
-        <asp:Panel ID="Panel1" runat="server" Height="148px">
-             <br /><br />
-             <br /><br />
-            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false"/> 
-             <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
+   
+           <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false"/> 
+             <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" OnMenuItemClick="Menu1_MenuItemClick">
                   <LevelMenuItemStyles>
         <asp:MenuItemStyle CssClass="main_menu" />
         
     </LevelMenuItemStyles>
             </asp:Menu>
-        </asp:Panel>
-        <br />
-        <br />
-        <br />
 
 
 
@@ -59,5 +49,7 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
+    
+    
 </body>
 </html>

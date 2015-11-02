@@ -25,7 +25,7 @@ public partial class Employee_Registartion : System.Web.UI.Page
     protected void btnReset_Click(object sender, EventArgs e)
     {
         txtFullName.Text = string.Empty;
-        rbmale.Checked= false;
+        rbmale.Checked = false;
         rbFemale.Checked = false;
         txtDateOfBirth.Text = string.Empty;
         txtAddress.Text = string.Empty;
@@ -40,40 +40,49 @@ public partial class Employee_Registartion : System.Web.UI.Page
     }
     protected void btnRegister_Click(object sender, EventArgs e)
     {
-      
-      string Gender = null;
 
-      StringBuilder Errors = new StringBuilder();
-        
-        if(rbmale.Checked==true)
+       
+
+        string Gender = null;
+
+        StringBuilder Errors = new StringBuilder();
+
+        if (rbmale.Checked == true)
         {
-            Gender ="Male";
+            Gender = "Male";
         }
-        else if(rbmale.Checked==true)
+        else if (rbmale.Checked == true)
         {
             Gender = "female";
         }
+        else if (rbmale.Checked == false && rbFemale.Checked == false)
+        {
+
+            lblgenderError.Text = "please select any one of the field";
+
+
+        }
         else
         {
-            Errors.Append("please select any one of the field");
+
         }
 
-        if(Errors.Length==0)
-        {
-            SaveEmpDetails(Gender);
-        }
-        else
-        {
-            Response.Write(Errors);
-        }
-     
+
+
 
     }
 
+
+
+
+
+
+
+
     private void SaveEmpDetails(string Gender)
     {
-        string connectionstring = ConfigurationManager.ConnectionStrings["Employee"].ConnectionString;
 
+        string connectionstring = ConfigurationManager.ConnectionStrings["Employee"].ConnectionString;
 
         using (SqlConnection connection = new SqlConnection(connectionstring))
         {
@@ -140,3 +149,10 @@ public partial class Employee_Registartion : System.Web.UI.Page
         }
     }
 }
+    
+
+   
+    
+
+                
+   

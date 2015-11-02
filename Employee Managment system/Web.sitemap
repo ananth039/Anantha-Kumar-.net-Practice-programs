@@ -7,6 +7,8 @@
       <siteMapNode url="Employee Registartion.aspx" title="Registartion"  description="" />
       
       <siteMapNode url="Login.aspx" title="Login"  description="" />
-      <siteMapNode url="Contact.aspx" title="Contact"  description="" />
+     
+      <siteMapNode url="BasicCalculator.aspx" title="Calculator"  description="" />
+ 
     </siteMapNode>
 </siteMap>

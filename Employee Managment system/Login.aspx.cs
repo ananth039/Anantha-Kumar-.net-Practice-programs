@@ -43,6 +43,7 @@ public partial class Login : System.Web.UI.Page
                     {
                         error.Append("invalid user name and password");
                         Response.Write(error);
+                        break;
                     }
                 }
             }
