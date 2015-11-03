@@ -4,6 +4,6 @@
         <siteMapNode url="Home.aspx" title="Home"  description="Home Page Contains user Details" />
         <siteMapNode url="Login.aspx" title="Login"  description="Users Login " />
       <siteMapNode url="EmpRegistration.aspx" title="Registration"  description="Employee registartion page" />
-      <siteMapNode url="Calculator.aspx" title="calculator"  description="Simple basic Calculator" />
+      <siteMapNode url="Calculator.aspx" title="Calculator"  description="Simple basic Calculator" />
     </siteMapNode>
 </siteMap>

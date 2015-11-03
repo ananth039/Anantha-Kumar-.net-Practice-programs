@@ -4,15 +4,16 @@
         .auto-style1 {
             height: 23px;
         }
-        .auto-style2 {
-            height: 26px;
-        }
         .auto-style3 {
             height: 43px;
         }
         .ERRORMESSAGE
         {
             color:red;
+        }
+        
+        .auto-style4 {
+            height: 42px;
         }
         
     </style>
@@ -117,70 +118,16 @@
             </td>
         </tr>
         <tr>
-            <td>
+            <td class="auto-style4">
                 <asp:Label ID="lblUserName" runat="server" Text="UserName"></asp:Label>
             </td>
-            <td>
+            <td class="auto-style4">
                 <asp:TextBox ID="txtUserName" runat="server"  placeholder="User Name" Width="239px"></asp:TextBox>
             </td>
-            <td>
+            <td class="auto-style4">
                 <asp:RequiredFieldValidator ID="RFVuseranme" runat="server" ControlToValidate="txtUserName" ErrorMessage="Please enter user name" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtUserName" ErrorMessage="should be User name contains alphabets and numbers" CssClass="ERRORMESSAGE" ValidationExpression="^[a-z]+[0-9]*$"></asp:RegularExpressionValidator>
                 <asp:Label ID="lblusernameExisterror" runat="server" CssClass="ERRORMESSAGE"></asp:Label>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="lblPassword" runat="server" Text="Password"></asp:Label>
-            </td>
-             <td>
-                <asp:TextBox ID="txtPassword" runat="server"  placeholder="Password" Width="239px"></asp:TextBox>
-            </td>
-            <td>
-                <asp:RequiredFieldValidator ID="RFVpassword" runat="server" ControlToValidate="txtPassword" ErrorMessage="please enter your password" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
-                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" CssClass="ERRORMESSAGE" ControlToValidate="txtPassword" runat="server"  ErrorMessage="password should be contain one Captial letter,one small letter,one number,one special symbol and password length between 8 to 20" ValidationExpression="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,20}$"></asp:RegularExpressionValidator>
-            </td>
-            
-        </tr>
-         <tr>
-            <td class="auto-style2">
-                <asp:Label ID="lblconformPassword" runat="server" Text="Conform Password"></asp:Label>
-            </td>
-             <td class="auto-style2">
-                <asp:TextBox ID="txtConformPassword" runat="server" placeholder="Conform Password" Width="239px" TextMode="Password"></asp:TextBox>
-            </td>
-            <td class="auto-style2">
-                <asp:RequiredFieldValidator ID="RFVconformPassword" runat="server" ControlToValidate="txtConformPassword" ErrorMessage="please Re enter your Password" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
-                <asp:CompareValidator ID="CVpassword" runat="server" ControlToValidate="txtConformPassword" ControlToCompare="txtPassword" ErrorMessage="password and conform password should be same" CssClass="ERRORMESSAGE"></asp:CompareValidator>
-               </td>
-            
-        </tr>
-        <tr>
-            <td class="auto-style2">
-                <asp:Label ID="lblSecurityQuestion" runat="server" Text="Security Question"></asp:Label>
-            </td>
-            <td class="auto-style2">
-                <asp:DropDownList ID="DdlSecurityQuestion" runat="server"  Height="16px" Width="245px">
-                <asp:ListItem Value=""></asp:ListItem>
-                     <asp:ListItem Value="What was your childhood nickname?"></asp:ListItem>
-                     <asp:ListItem Value="What is your favorite movie?"></asp:ListItem>
-                     <asp:ListItem Value="what is your father name"></asp:ListItem>
-                     <asp:ListItem Value="what is your favourite book"></asp:ListItem>
-                </asp:DropDownList>
-            </td>
-            <td class="auto-style2">
-                <asp:RequiredFieldValidator ID="RFVSecurityQuestion" runat="server" ControlToValidate="DdlSecurityQuestion" ErrorMessage="please select any one of the security question" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
-            </td>
-        </tr>
-        <tr>
-            <td class="auto-style1">
-                <asp:Label ID="lblanswer" runat="server" Text="Answer"></asp:Label>
-            </td>
-            <td class="auto-style1">
-                <asp:TextBox ID="txtSecurityQuestionanswer" placeholder="Answer" runat="server" Width="239px"></asp:TextBox>
-            </td>
-            <td class="auto-style1">
-                <asp:RequiredFieldValidator ID="RFVsecurityquestionanswer" runat="server" ControlToValidate="txtSecurityQuestionanswer" ErrorMessage="Please Enter your Answer" CssClass="ERRORMESSAGE"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -190,13 +137,13 @@
             <td class="auto-style1"></td>
             <td class="auto-style1">
                 <asp:Button ID="btnUpdate" runat="server" Text="Update" Width="101px" OnClick="btnUpdate_Click"  />
-                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<asp:Button ID="Delete" runat="server" Text="Delete" Width="90px" />
+                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<asp:Button ID="btnCancel" runat="server" Text="Cancel" Width="90px" OnClick="btnCancel_Click"  />
             </td>
-            <td class="auto-style1">&nbsp;</td>
+            <td class="auto-style1"></td>
         </tr>
         <tr>
             <td class="auto-style3" colspan="3">
-                <asp:ValidationSummary   Enabled="false" ID="ValidationSummary1" runat="server" />
+                <asp:Label ID="lblmessage" runat="server" Text=""></asp:Label>
             </td>
         </tr>
     </table>

@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Drawing;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace Employee_Registartion
 {
@@ -12,29 +14,14 @@ namespace Employee_Registartion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["Username"]==null)
-            {
-                LbluserName.Visible = false;
-                imguser.Visible = false;
-                hplLogout.Visible = false;
-            }
-            else
-            {
-                LbluserName.Text = "Login as " + Session["Username"].ToString();
-                LbluserName.Font.Size = 20;
-                LbluserName.ForeColor = Color.Red;
+           
 
-                imguser.ImageUrl = @"images\user.png";
-                hplLogout.Visible = true;
-            
-            }
-          
-          
+
         }
 
         protected void btnEdit_Click(object sender, EventArgs e)
         {
-            if(Session["Username"]==null)
+            if (Session["Username"] == null)
             {
 
                 Response.Redirect("Login.aspx");
@@ -43,6 +30,55 @@ namespace Employee_Registartion
             {
                 Session["Username"] = Session["Username"];
                 Response.Redirect("EditDetails.aspx");
+            }
+        }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (Session["Username"] == null)
+            {
+
+                Response.Redirect("Login.aspx");
+            }
+            else
+            {
+                string connectionstring = ConfigurationManager.ConnectionStrings["Employee"].ConnectionString;
+
+                string LoginUserName = Session["username"].ToString();
+
+                using (SqlConnection connection2 = new SqlConnection(connectionstring))
+                {
+                    connection2.Open();
+                    SqlCommand deleteCommand = new SqlCommand("delete EmpRegistration where username!=@LoginUserName", connection2);
+
+
+                    //dd new SqlParameters to the insertCommand.
+
+
+                    deleteCommand.Parameters.Add(new SqlParameter("LoginUserName", LoginUserName));
+
+                    try
+                    {
+
+
+                        deleteCommand.ExecuteNonQuery();
+                        Response.Write(" sucessfully deleted");
+                        Response.Redirect("Home.aspx");
+
+                    }
+                    catch (Exception ex)
+                    {
+                        Response.Write(ex.Message);
+                    }
+                }
+
+
+
             }
         }
     }

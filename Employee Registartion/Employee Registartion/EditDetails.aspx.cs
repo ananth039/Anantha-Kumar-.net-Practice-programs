@@ -13,6 +13,7 @@ namespace Employee_Registartion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
             string connectionstring = ConfigurationManager.ConnectionStrings["Employee"].ConnectionString;
 
             using (SqlConnection connection = new SqlConnection(connectionstring))
@@ -26,23 +27,19 @@ namespace Employee_Registartion
                         txtFullName.Text = reader["FullName"].ToString();
                         if (reader["Gender"].ToString() == "Male")
                         {
-                            rbmale.Checked=true;
+                            rbmale.Checked = true;
                         }
                         else
                         {
-                            rbFemale.Checked=true;
+                            rbFemale.Checked = true;
                         }
-                        txtDateOfBirth.Text=reader["DateOfBirth"].ToString();
-                        DdlDesignation.SelectedItem.Value=reader["Designation"].ToString();
-                        txtEmail.Text=reader["Email"].ToString();
-                        txtphno.Text=reader["MobilNo"].ToString();
-                        txtUserName.Text=reader["Username"].ToString();
-                        txtAddress.Text=reader["Address"].ToString();
-                        txtPassword.Text = reader["Password"].ToString();
-                        txtConformPassword.Text=reader["ConformPasword"].ToString();
-                       DdlSecurityQuestion.SelectedItem.Value=reader["SecuityQuestion"].ToString();
-                        txtSecurityQuestionanswer.Text=reader["Answer"].ToString();
-                 }
+                        txtDateOfBirth.Text = reader["DateOfBirth"].ToString();
+                        DdlDesignation.SelectedItem.Value = reader["Designation"].ToString();
+                        txtEmail.Text = reader["Email"].ToString();
+                        txtphno.Text = reader["MobilNo"].ToString();
+                        txtUserName.Text = reader["Username"].ToString();
+                        txtAddress.Text = reader["Address"].ToString();
+                    }
                 }
             }
 
@@ -72,13 +69,13 @@ namespace Employee_Registartion
             }
 
             string connectionstring = ConfigurationManager.ConnectionStrings["Employee"].ConnectionString;
-        
-            string LoginUserName=Session["username"].ToString();
+
+            string LoginUserName = Session["username"].ToString();
 
             using (SqlConnection connection2 = new SqlConnection(connectionstring))
             {
                 connection2.Open();
-                SqlCommand UpdateCommand = new SqlCommand("update  EmpRegistration set FullName=@FullName,Gender=@gender,DateOfBirth=@dateofBirth,Designation=@Designation,Email=@Email,MobilNo=@MobileNo,Address=@address,Username=@username,Password=@password,ConformPasword=@conformpassword,SecuityQuestion=@SecurityQuestion,Answer=@Answer  where username=@LoginUserName" , connection2);
+                SqlCommand UpdateCommand = new SqlCommand("update  EmpRegistration set FullName=@FullName,Gender=@gender,DateOfBirth=@dateofBirth,Designation=@Designation,Email=@Email,MobilNo=@MobileNo,Address=@address where username=@LoginUserName", connection2);
 
 
                 //dd new SqlParameters to the insertCommand.
@@ -91,17 +88,14 @@ namespace Employee_Registartion
                 UpdateCommand.Parameters.Add(new SqlParameter("MobileNo", txtphno.Text));
                 UpdateCommand.Parameters.Add(new SqlParameter("address", txtAddress.Text));
                 UpdateCommand.Parameters.Add(new SqlParameter("username", txtUserName.Text));
-                UpdateCommand.Parameters.Add(new SqlParameter("password", txtPassword.Text));
-                UpdateCommand.Parameters.Add(new SqlParameter("conformpassword", txtConformPassword.Text));
-                UpdateCommand.Parameters.Add(new SqlParameter("SecurityQuestion", DdlSecurityQuestion.SelectedItem.Value));
-                UpdateCommand.Parameters.Add(new SqlParameter("Answer", txtSecurityQuestionanswer.Text));
-                UpdateCommand.Parameters.Add(new SqlParameter("LoginUserName",LoginUserName));
+                UpdateCommand.Parameters.Add(new SqlParameter("LoginUserName", LoginUserName));
 
                 try
                 {
 
 
                     UpdateCommand.ExecuteNonQuery();
+                    lblmessage.Text = "Sucessfully updated";
 
                 }
                 catch (Exception ex)
@@ -110,8 +104,17 @@ namespace Employee_Registartion
                 }
             }
 
-           
+
         }
+
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
+
+       
+
+
     }
 }
       

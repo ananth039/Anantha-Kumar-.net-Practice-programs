@@ -65,23 +65,34 @@ namespace Employee_Registartion
                 SqlCommand comand2 = new SqlCommand("select Email,MobilNo,Username from EmpRegistration", connection);
                 using (SqlDataReader reader = comand2.ExecuteReader())
                 {
+                    int n = 0;
                     while (reader.Read())
                     {
-                        if ((txtEmail.Text == reader["Email"].ToString()) && txtphno.Text == reader["MobilNo"].ToString() && txtUserName.Text == reader["Username"].ToString())
+                        n++;
+                        if (n == 0)
                         {
-                            lblEmailExisterror.Text = "Email is already exist";
-                            lblMobileexistError.Text = "mobile Number is already exist";
-                            lblusernameExisterror.Text = "user name is already exist";
-                            sb.Append("error");
+                            SaveDetails(Gender, connectionstring);
+                        }
+                        else
+                        {
 
 
+                            if ((txtEmail.Text == reader["Email"].ToString()) && txtphno.Text == reader["MobilNo"].ToString() && txtUserName.Text == reader["Username"].ToString())
+                            {
+                                lblEmailExisterror.Text = "Email is already exist";
+                                lblMobileexistError.Text = "mobile Number is already exist";
+                                lblusernameExisterror.Text = "user name is already exist";
+                                sb.Append("error");
+
+
+                            }
                         }
 
-                  
+
                     }
                 }
             }
-            if(sb.Length==0)
+            if (sb.Length == 0)
             {
                 SaveDetails(Gender, connectionstring);
             }
@@ -117,16 +128,22 @@ namespace Employee_Registartion
 
 
                     insertCommand.ExecuteNonQuery();
+                    lblmessage.Text = "Your details sucessfully inserted";
+                    Response.Redirect("Login.aspx");
+
 
                 }
                 catch (Exception ex)
                 {
-                    Response.Write(ex.Message);
+                    lblmessage.Text = ex.Message;
                 }
             }
+        }
+    }
+}
 
            
-    }
+    
 
      
 

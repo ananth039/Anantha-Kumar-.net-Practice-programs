@@ -7,9 +7,6 @@
         .auto-style2 {
             height: 26px;
         }
-        .auto-style3 {
-            height: 43px;
-        }
         .ERRORMESSAGE
         {
             color:red;
@@ -192,13 +189,15 @@
                 <asp:Button ID="btnRegister" runat="server" Text="Register" Width="101px" OnClick="btnRegister_Click" />
                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<asp:Button ID="btnReset" runat="server" Text="Reset" Width="90px" OnClick="btnReset_Click" />
             </td>
-            <td class="auto-style1">&nbsp;</td>
+            
         </tr>
         <tr>
-            <td class="auto-style3" colspan="3">
-                <asp:ValidationSummary   Enabled="false" ID="ValidationSummary1" runat="server" />
+           <td class="auto-style1" colspan="3">
+                <br />
+                 <asp:Label ID="lblmessage" runat="server" Text=""></asp:Label>
             </td>
-        </tr>
+            </tr>
+        
     </table>
        </div>
 </asp:Content>

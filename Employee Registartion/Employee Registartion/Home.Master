@@ -11,6 +11,14 @@
 <body>
     <form id="form1" runat="server">
     <div>
+       
+        <asp:Label ID="LbluserName" runat="server" Text=""></asp:Label>
+    
+    <asp:Image ID="imguser" runat="server" ImageAlign="Right" ImageUrl="images\user.png" Width="100" style="position: absolute; top: 120px; left: 918px; height: 95px; z-index: 1;"/>
+  
+    <asp:HyperLink ID="hplLogout" runat="server" NavigateUrl="Logout.aspx" >Logout</asp:HyperLink>
+ 
+    
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server"  ShowStartingNode="false"/>
         <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"></asp:Menu>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

@@ -19,7 +19,7 @@ namespace Employee_Registartion
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            StringBuilder error = new StringBuilder();
+            
 
             string ConnectionString = ConfigurationManager.ConnectionStrings["Employee"].ConnectionString;
             using (SqlConnection connection = new SqlConnection(ConnectionString))
@@ -40,9 +40,8 @@ namespace Employee_Registartion
                         }
                         else
                         {
-                            error.Append("invalid user name and password");
-                            Response.Write(error);
-                            break;
+                           lblMessage.Text= "invalid user name and password";
+                           
                         }
                     }
                 }
@@ -55,9 +54,10 @@ namespace Employee_Registartion
 
         protected void btnSignup_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Employee Registartion.aspx");
+            Response.Redirect("EmpRegistration.aspx");
         }
 
-     
+        
+
     }
 }
