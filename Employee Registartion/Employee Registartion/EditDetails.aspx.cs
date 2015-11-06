@@ -13,36 +13,46 @@ namespace Employee_Registartion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            string connectionstring = ConfigurationManager.ConnectionStrings["Employee"].ConnectionString;
-
-            using (SqlConnection connection = new SqlConnection(connectionstring))
+            if (Session["Username"] == null)
             {
-                connection.Open();
-                SqlCommand comand2 = new SqlCommand("select * from EmpRegistration", connection);
-                using (SqlDataReader reader = comand2.ExecuteReader())
+
+                Response.Redirect("Login.aspx");
+               
+            }
+            else
+            {
+
+
+                string connectionstring = ConfigurationManager.ConnectionStrings["Employee"].ConnectionString;
+
+                using (SqlConnection connection = new SqlConnection(connectionstring))
                 {
-                    while (reader.Read())
+                    connection.Open();
+                    SqlCommand comand2 = new SqlCommand("select * from EmpRegistration", connection);
+                    using (SqlDataReader reader = comand2.ExecuteReader())
                     {
-                        txtFullName.Text = reader["FullName"].ToString();
-                        if (reader["Gender"].ToString() == "Male")
+                        while (reader.Read())
                         {
-                            rbmale.Checked = true;
+                            txtFullName.Text = reader["FullName"].ToString();
+                            if (reader["Gender"].ToString() == "Male")
+                            {
+                                rbmale.Checked = true;
+                            }
+                            else
+                            {
+                                rbFemale.Checked = true;
+                            }
+                            txtDateOfBirth.Text = reader["DateOfBirth"].ToString();
+                            DdlDesignation.SelectedItem.Value = reader["Designation"].ToString();
+                            txtEmail.Text = reader["Email"].ToString();
+                            txtphno.Text = reader["MobilNo"].ToString();
+                            txtUserName.Text = reader["Username"].ToString();
+                            txtAddress.Text = reader["Address"].ToString();
                         }
-                        else
-                        {
-                            rbFemale.Checked = true;
-                        }
-                        txtDateOfBirth.Text = reader["DateOfBirth"].ToString();
-                        DdlDesignation.SelectedItem.Value = reader["Designation"].ToString();
-                        txtEmail.Text = reader["Email"].ToString();
-                        txtphno.Text = reader["MobilNo"].ToString();
-                        txtUserName.Text = reader["Username"].ToString();
-                        txtAddress.Text = reader["Address"].ToString();
                     }
                 }
-            }
 
+            }
         }
 
         protected void btnUpdate_Click(object sender, EventArgs e)

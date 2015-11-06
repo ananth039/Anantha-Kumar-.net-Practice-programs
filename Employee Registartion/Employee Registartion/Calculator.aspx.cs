@@ -11,7 +11,16 @@ namespace Employee_Registartion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["Username"] == null)
+            {
 
+                Response.Redirect("Login.aspx");
+            }
+            else
+            {
+                Session["Username"] = Session["Username"];
+                Response.Redirect("EditDetails.aspx");
+            }
         }
         protected void UserInput(object sender, EventArgs e)
         {

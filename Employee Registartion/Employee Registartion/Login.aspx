@@ -31,15 +31,19 @@
           
             
        </tr>
+        
        <tr>
            <td>
                <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" /></td>
-           <td> <asp:Button ID="btnSignup" runat="server" Text="SignUp" OnClick="btnSignup_Click" /><br />
+           <td> <asp:Button ID="btnSignup" runat="server" Text="SignUp" OnClick="btnSignup_Click" /> </td>
+           </tr>
+        <tr><td colspan="2"><asp:DynamicHyperLink runat="server" NavigateUrl="ForgetPassword.aspx">Forget Password</asp:DynamicHyperLink></td></tr>
 
-               <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
-           </td>
-       </tr>
-
+      
+                  <tr> <td colspan="2"><asp:Label ID="lblMessage" runat="server" Text=""></asp:Label></td></tr>
+          
+       
+      
    </table>
         </div>
    
