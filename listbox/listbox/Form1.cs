@@ -149,12 +149,14 @@ namespace listbox
             //{
             //    lboutput.Items.Remove(obj);
             //}
-            lbinput.SelectionMode = SelectionMode.One;
-            for(int o=0;o<lboutput.SelectedItems.Count;o++)
+
+
+            for (int o = 0; o < lboutput.SelectedItems.Count; o++)
             {
                 lboutput.Items.Clear();
 
             }
+            //lboutput.SelectedItems.Clear();
         }
 
         private void btnDeleteSingle_Click(object sender, EventArgs e)
