@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/img1.jpg</ImageUrl>
+    <NavigateUrl>http://www.w3schools.com/</NavigateUrl>
+    <AlternateText>>W3Schools.com</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/img2.jpg</ImageUrl>
+    <NavigateUrl>https://www.google.co.in/</NavigateUrl>
+    <AlternateText>Google</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/img3.jpg</ImageUrl>
+    <NavigateUrl>https://in.yahoo.com/</NavigateUrl>
+    <AlternateText>Yahoo</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/img4.jpg</ImageUrl>
+    <NavigateUrl>http://www.tutorialspoint.com/</NavigateUrl>
+    <AlternateText>tutorial point</AlternateText>
+  </Ad>
+</Advertisements>
+

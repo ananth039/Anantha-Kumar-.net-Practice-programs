@@ -14,9 +14,6 @@ namespace add_rotator
 
         }
 
-        protected void AdRotator1_AdCreated(object sender, AdCreatedEventArgs e)
-        {
-            
-        }
+     
     }
 }

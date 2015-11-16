@@ -9,11 +9,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
-        <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/myadds.xml" OnAdCreated="AdRotator1_AdCreated" DataSourceID="XmlDataSource1"/>
-    
-        <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/myadds.xml"></asp:XmlDataSource>
-    
+        <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/Add.xml" />
+        
     </div>
     </form>
     <p>

@@ -58,12 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="add rotator control.aspx" />
+    <Content Include="Add.xml" />
     <Content Include="images\img1.jpg" />
     <Content Include="images\img4.jpg" />
     <Content Include="images\img3.jpg" />
     <Content Include="images\img2.jpg" />
     <Content Include="Web.config" />
-    <Content Include="myadds.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="add rotator control.aspx.cs">
