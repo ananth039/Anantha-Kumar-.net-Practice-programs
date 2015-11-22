@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{20415311-DF4C-4058-AD87-6909DFAE808F}</ProjectGuid>
+    <ProjectGuid>{89B1A434-9825-41F0-875B-32F421E2CE73}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>gidview_custmization</RootNamespace>
-    <AssemblyName>gidview custmization</AssemblyName>
+    <RootNamespace>retrive_the_views_from_database</RootNamespace>
+    <AssemblyName>retrive the views from database</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,67 +57,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="delete operation in gridview.aspx" />
-    <Content Include="Edit operation grid view.aspx" />
-    <Content Include="gridview Edit and Delete.aspx" />
-    <Content Include="Gridview with checkbox.aspx" />
-    <Content Include="insert record from gridview.aspx" />
-    <Content Include="select Operation.aspx" />
-    <Content Include="Sql datasource using in Gridview.aspx" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="view database example.aspx" />
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="delete operation in gridview.aspx.cs">
-      <DependentUpon>delete operation in gridview.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="delete operation in gridview.aspx.designer.cs">
-      <DependentUpon>delete operation in gridview.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Edit operation grid view.aspx.cs">
-      <DependentUpon>Edit operation grid view.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Edit operation grid view.aspx.designer.cs">
-      <DependentUpon>Edit operation grid view.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="gridview Edit and Delete.aspx.cs">
-      <DependentUpon>gridview Edit and Delete.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="gridview Edit and Delete.aspx.designer.cs">
-      <DependentUpon>gridview Edit and Delete.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Gridview with checkbox.aspx.cs">
-      <DependentUpon>Gridview with checkbox.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Gridview with checkbox.aspx.designer.cs">
-      <DependentUpon>Gridview with checkbox.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="insert record from gridview.aspx.cs">
-      <DependentUpon>insert record from gridview.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="insert record from gridview.aspx.designer.cs">
-      <DependentUpon>insert record from gridview.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="select Operation.aspx.cs">
-      <DependentUpon>select Operation.aspx</DependentUpon>
+    <Compile Include="view database example.aspx.cs">
+      <DependentUpon>view database example.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="select Operation.aspx.designer.cs">
-      <DependentUpon>select Operation.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Sql datasource using in Gridview.aspx.cs">
-      <DependentUpon>Sql datasource using in Gridview.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Sql datasource using in Gridview.aspx.designer.cs">
-      <DependentUpon>Sql datasource using in Gridview.aspx</DependentUpon>
+    <Compile Include="view database example.aspx.designer.cs">
+      <DependentUpon>view database example.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -141,9 +91,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1792</DevelopmentServerPort>
+          <DevelopmentServerPort>4682</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:1792/</IISUrl>
+          <IISUrl>http://localhost:4682/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
