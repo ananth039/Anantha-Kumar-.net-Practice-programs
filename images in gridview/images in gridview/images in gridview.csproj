@@ -57,14 +57,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="display images in gridview using image fields.aspx" />
     <Content Include="Employee details with image.aspx" />
     <Content Include="images\12270446_842770725844605_2244402_n.jpg" />
     <Content Include="images\12277307_842770672511277_619271019_n.jpg" />
     <Content Include="images\12282802_842642852524059_691168745_n.jpg" />
-    <Content Include="images\12283096_842642892524055_146543645_n.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="display images in gridview using image fields.aspx.cs">
+      <DependentUpon>display images in gridview using image fields.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display images in gridview using image fields.aspx.designer.cs">
+      <DependentUpon>display images in gridview using image fields.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Employee details with image.aspx.cs">
       <DependentUpon>Employee details with image.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

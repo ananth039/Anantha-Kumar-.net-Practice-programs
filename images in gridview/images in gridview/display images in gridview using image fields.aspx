@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Employee details with image.aspx.cs" Inherits="images_in_gridview.Employee_details_with_image" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="display images in gridview using image fields.aspx.cs" Inherits="images_in_gridview.display_images_in_gridview_using_image_fields" %>
 
 <!DOCTYPE html>
 
@@ -9,19 +9,14 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
-
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2">
             <Columns>
                 <asp:BoundField HeaderText="Employee Id"  DataField="Eid"/>
                 <asp:BoundField HeaderText="Employee Name" DataField="Name" />
                 <asp:BoundField HeaderText="Gender" DataField="Gender" />
                 <asp:BoundField HeaderText="City" DataField="City" />
-                <asp:TemplateField HeaderText="Photo">
-                    <ItemTemplate>
-                        <asp:Image ID="Image1" runat="server" Height="100px" Width="100px" AlternateText="Image Not Found"  ImageUrl='<%# bind("Photo") %>' />
-                    </ItemTemplate>
-                </asp:TemplateField>
+              
+                <asp:ImageField   HeaderText="Photo" AlternateText="Image not found" ControlStyle-Height="100px" ControlStyle-Width="100px" DataImageUrlField="photo" NullDisplayText="Image link null"></asp:ImageField>
             </Columns>
             <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
             <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
@@ -33,7 +28,7 @@
             <SortedDescendingCellStyle BackColor="#F1E5CE" />
             <SortedDescendingHeaderStyle BackColor="#93451F" />
         </asp:GridView>
-            </div>
+    </div>
     </form>
 </body>
 </html>
