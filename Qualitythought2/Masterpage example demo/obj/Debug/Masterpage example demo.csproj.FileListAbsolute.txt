@@ -4,3 +4,9 @@ E:\My Practice pograms\Qualitythought\Masterpage example demo\bin\Masterpage exa
 E:\My Practice pograms\Qualitythought\Masterpage example demo\obj\Debug\Masterpage example demo.dll
 E:\My Practice pograms\Qualitythought\Masterpage example demo\obj\Debug\Masterpage example demo.pdb
 E:\My Practice pograms\Qualitythought\Masterpage example demo\obj\Debug\Masterpage example demo.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\Qualitythought2\Masterpage example demo\bin\Masterpage example demo.dll.config
+E:\My Practice pograms\Qualitythought2\Masterpage example demo\bin\Masterpage example demo.dll
+E:\My Practice pograms\Qualitythought2\Masterpage example demo\bin\Masterpage example demo.pdb
+E:\My Practice pograms\Qualitythought2\Masterpage example demo\obj\Debug\Masterpage example demo.csprojResolveAssemblyReference.cache
+E:\My Practice pograms\Qualitythought2\Masterpage example demo\obj\Debug\Masterpage example demo.dll
+E:\My Practice pograms\Qualitythought2\Masterpage example demo\obj\Debug\Masterpage example demo.pdb
