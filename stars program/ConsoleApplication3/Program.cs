@@ -13,10 +13,10 @@ namespace ConsoleApplication3
             int i = 1, j, m = 3, n = 5,k;
             while(i<=m)
             {
-                for (k =n-1; k>=1;k--)
-                {
-                    Console.Write(" ");
-                }
+                //for (k =n-1; k>=1;k--)
+                //{
+                //    Console.Write(" ");
+                //}
                
                     for (j = 1; j <= n; j++)
                     {
