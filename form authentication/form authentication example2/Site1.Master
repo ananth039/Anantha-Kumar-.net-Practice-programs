@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="form_authentication_example2.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td colspan="4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:HyperLink ID="Home" runat="server" NavigateUrl="~/Home.aspx" ToolTip="Home page">Home</asp:HyperLink>
+                </td>
+                <td>
+                    <asp:HyperLink ID="ABout" runat="server" NavigateUrl="~/About.aspx" ToolTip="About Page">About</asp:HyperLink>
+                </td>
+                <td>
+                    <asp:HyperLink ID="Contact" runat="server" NavigateUrl="~/Contact.aspx" ToolTip="Contact page">Contact</asp:HyperLink>
+                </td>
+                <td>
+                    <asp:HyperLink ID="Registration" runat="server" NavigateUrl="~/Registration.aspx" ToolTip="Registration page">Registration</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                 <td>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Logout.aspx" ToolTip="Registration page">Registration</asp:HyperLink>
+                </td>
+            </tr>
+        </table>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
