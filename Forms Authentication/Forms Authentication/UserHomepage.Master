@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserHomepage.master.cs" Inherits="Forms_Authentication.UserHomepage1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 23px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+                <tr>
+                    <td class="auto-style2"><a href="Postquery.aspx">PostQuery</a></td>
+                    <td class="auto-style2"><a href="PostAnswer.aspx">PostAnswers</a></td>
+                    <td class="auto-style2"><a href="Secured/DeleteQuery.aspx">DeleteQuery</a></td>
+                    <td class="auto-style2"><a href="Secured/DeleteArticles.aspx">DeleteArticles</a></td>
+                    <td class="auto-style2">
+                        <asp:LinkButton ID="LinkButtonLogout" runat="server" OnClick="LinkButtonLogout_Click">Logout</asp:LinkButton>
+                    </td>
+                </tr>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            
+               
+          
+        
+          
+        
+            
+               
+          
+        
+        </asp:ContentPlaceHolder>
+              </table>
+    </div>
+    </form>
+</body>
+</html>
