@@ -28,7 +28,8 @@
             <tr>
                 <td>Eid</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" AutoPostBack="true"></asp:TextBox>
+                    <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Must not be empty"></asp:RequiredFieldValidator>

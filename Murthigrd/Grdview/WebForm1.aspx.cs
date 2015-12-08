@@ -12,10 +12,11 @@ namespace Grdview
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
+         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["constr"].ToString());
+          
         public void Fill()
         {
-            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["constr"].ToString());
-
+            con.Open();
             SqlDataAdapter da = new SqlDataAdapter("sp_getemp", con);
             DataSet ds = new DataSet();
             da.Fill(ds, "emp");
@@ -30,9 +31,8 @@ namespace Grdview
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["constr"].ToString());
             con.Open();
-            SqlCommand cmd = new SqlCommand("sp_emp", con);
+             SqlCommand cmd = new SqlCommand("sp_emp", con);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@eid", TextBox1.Text);
             cmd.Parameters.AddWithValue("@ename", TextBox2.Text);
@@ -58,9 +58,8 @@ namespace Grdview
 
         protected void GridView1_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
-            int eid = Convert.ToInt32(GridView1.DataKeys[e.RowIndex].Value);
-            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["constr"].ToString());
             con.Open();
+            int eid = Convert.ToInt32(GridView1.DataKeys[e.RowIndex].Value);
             SqlCommand cmd = new SqlCommand("sp_delemp", con);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@eid", eid);
@@ -102,7 +101,6 @@ namespace Grdview
             string email= t7.Text;
             TextBox t8 = (TextBox)row.FindControl("TextBox8");
             int mid = int.Parse(t8.Text);
-            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["constr"].ToString());
             con.Open();
             SqlCommand cmd = new SqlCommand("upemp", con);
             cmd.CommandType = CommandType.StoredProcedure;
@@ -118,6 +116,41 @@ namespace Grdview
             con.Close();
             GridView1.EditIndex = -1;
             Fill();
+
+        }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select eid from emp", con);
+            SqlDataReader dr = cmd.ExecuteReader();
+            
+            while(dr.Read())
+            { 
+                if(dr[0].ToString().Equals(TextBox1.Text))
+                {
+                    Label9.Text = "";
+                    Label9.Text = "Eid " + dr[0].ToString() + " is already exist";
+                   
+                   
+                }
+               
+            }
+
+            con.Close();
+            Displayempid();
+        }
+
+        private void Displayempid()
+        {
+            con.Open();
+            SqlCommand cmd1 = new SqlCommand("select MAX(eid) from emp", con);
+            int i = (int)cmd1.ExecuteScalar();
+            i++;
+            Label9.Text = Label9.Text + " please enter this eid : " + i;
+            con.Close();
+
 
         }
     }

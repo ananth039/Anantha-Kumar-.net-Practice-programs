@@ -38,7 +38,7 @@ namespace asp.net_project
             LinkButton linkdbtn = sender as LinkButton;
             GridViewRow grow = linkdbtn.NamingContainer as GridViewRow;
             int field = Convert.ToInt32(GridViewFiles.DataKeys[grow.RowIndex].Value.ToString());
-            string name, type;
+            
             SqlCommand cmd = new SqlCommand("Select FileName,FileType,FileData from FileInformation where Id=@Id", con);
             cmd.Parameters.AddWithValue("@Id", field);
             con.Open();
