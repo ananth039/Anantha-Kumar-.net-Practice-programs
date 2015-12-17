@@ -1,0 +1,1 @@
+create table Login(LoginId int primary key,Name varchar(50),Phno varchar(10),email varchar(50),Username varchar(20),Password varchar(20),SecQuestion varchar(max),Answer varchar(max),Status varchar(20) default('pending'));

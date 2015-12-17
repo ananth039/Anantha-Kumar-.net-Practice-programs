@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserHomepage.master.cs" Inherits="dot_net_community_project.Users.UserHomepage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" StaticHoverStyle-ForeColor="Green" StaticHoverStyle-Font-Size="Medium" >
+            <DynamicSelectedStyle BackColor="#3333CC" BorderColor="#FFCCFF" Font-Size="XX-Small" />
+            <StaticHoverStyle ForeColor="Green" />
+        
+            <Items>
+                
+                <asp:MenuItem Text="Home" Selected="true" NavigateUrl="~/Users/UserHome.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Forums">
+                    <asp:MenuItem Text="Post a Query" NavigateUrl="~/Users/PostaQuery.aspx"></asp:MenuItem>
+                      <asp:MenuItem Text="View All Questions" NavigateUrl="~/Users/ViewAllQuestions.aspx"></asp:MenuItem>
+                      <asp:MenuItem Text="View Answered Questions" NavigateUrl="~/Users/ViewAnsweredQuestions.aspx"></asp:MenuItem>
+                     
+                </asp:MenuItem>
+                  <asp:MenuItem Text="Articles">
+                    <asp:MenuItem Text="Post Articles" NavigateUrl="~/Users/PostArticles.aspx"></asp:MenuItem>
+                      <asp:MenuItem Text="Search Articles" NavigateUrl="~/Users/SearchArticles.aspx"></asp:MenuItem>
+                      <asp:MenuItem Text="View All Articles" NavigateUrl="~/Users/ViewAllArticles.aspx"></asp:MenuItem>
+                     
+                </asp:MenuItem>
+                  <asp:MenuItem Text="Projects">
+                    <asp:MenuItem Text="Upload Projects" NavigateUrl="~/Users/UploadProjects.aspx"></asp:MenuItem>
+                      <asp:MenuItem Text="View/Search Projects" NavigateUrl="~/Users/View_SearchProjects.aspx"></asp:MenuItem>
+                     
+                </asp:MenuItem>
+                <asp:MenuItem Text="Personal Details" Selected="true" NavigateUrl="~/Users/PersonalDetails.aspx"></asp:MenuItem>
+                   <asp:MenuItem Text="Signout" Selected="true" NavigateUrl="~/Users/Signout.aspx"></asp:MenuItem>
+                    
+            </Items>
+         
+           
+         
+            <StaticMenuItemStyle BorderColor="#99FF33" />
+         
+           
+         
+        </asp:Menu>
+        <asp:Image ID="Image1" runat="server" ImageAlign="Right"  Width="100" Height="100" style="border-radius:80%;border:2px solid coral;" Visible="False"/>
+        <br />
+    
+        <br />
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+
+        
+    </div>
+      
+    </form>
+    <h4 align="center">Project&copy;2015 ..............</h4>
+
+       
+  
+</body>
+</html>
