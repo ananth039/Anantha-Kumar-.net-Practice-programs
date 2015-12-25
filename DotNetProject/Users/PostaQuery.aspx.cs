@@ -4,13 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
-public partial class PostaQuery : System.Web.UI.Page
+using DataAcessLayer;
+using System.Drawing;
+public partial class Users_PostaQuery : System.Web.UI.Page
 {
-      DAUsers usrs = new DAUsers();
+    DAUsers usrs = new DAUsers();
     DaFourms fourms = new DaFourms();
-   
-      
+
+
     protected void Page_Load(object sender, EventArgs e)
     {
         AutogenerateQuestionId();
@@ -61,6 +62,6 @@ public partial class PostaQuery : System.Web.UI.Page
             ClearControls(ctl.Controls);
         }
     }
-    }
+}
 
 

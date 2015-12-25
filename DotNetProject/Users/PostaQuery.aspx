@@ -1,7 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Users/UserHomepage.master" AutoEventWireup="true" CodeFile="PostaQuery.aspx.cs" Inherits="PostaQuery" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Users/UserHomepage.master" AutoEventWireup="true" CodeFile="PostaQuery.aspx.cs" Inherits="Users_PostaQuery" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<style type="text/css">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server"><style type="text/css">
         .auto-style1 {
             width: 445px;
             z-index: 1;
@@ -15,7 +14,7 @@
         }
     </style>
     </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <asp:Panel ID="Panel1" runat="server">
 
@@ -60,3 +59,4 @@
  
    
 </asp:Content>
+

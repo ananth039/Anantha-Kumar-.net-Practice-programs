@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomePage.master.cs" Inherits="HomePage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+           <div>
+<table class="auto-style1">
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                    <asp:HyperLink ID="HyperLinkUsersLogin" runat="server" NavigateUrl="AdminLogin.aspx">Admin Login</asp:HyperLink></td>
+            </tr>
+        </table>
+        
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false"/>
+      
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticMenuItemStyle-Width="100" StaticHoverStyle-ForeColor="Green">
+            <DynamicSelectedStyle BackColor="#3333CC" BorderColor="#FFCCFF" BorderWidth="100px" Font-Size="XX-Small" />
+            <StaticHoverStyle ForeColor="Green" />
+            <StaticMenuItemStyle Width="100px" />
+         
+        </asp:Menu>
+        
+        <br />
+        <br />
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+              
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+        <h4 align="center">Copyrights&copy;2015 ..............</h4>
+    
+
+    </div>
+    </form>
+</body>
+</html>

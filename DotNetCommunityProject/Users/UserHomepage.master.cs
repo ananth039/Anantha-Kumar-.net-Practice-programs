@@ -10,7 +10,7 @@ using DataAccessLayer;
 
 public partial class Users_UserHomepage : System.Web.UI.MasterPage
 {
-    DAUsers dausrs = new DAUsers();
+
     protected void Page_Load(object sender, EventArgs e)
     {
         //string userName = Session["username"].ToString();

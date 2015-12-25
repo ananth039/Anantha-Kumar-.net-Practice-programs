@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminHomePage.master.cs" Inherits="Admin_AdminHomePage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" StaticHoverStyle-ForeColor="Green" StaticHoverStyle-Font-Size="Medium" >
+            <DynamicSelectedStyle BackColor="#3333CC" BorderColor="#FFCCFF" Font-Size="XX-Small" />
+            <StaticHoverStyle ForeColor="Green" />
+        
+            <Items>
+                
+                <asp:MenuItem Text="Home" Selected="true" NavigateUrl="~/Admin/AdminHomePage.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Users" NavigateUrl="~/Admin/Users.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Articles" NavigateUrl="~/Admin/Articles.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Projects" NavigateUrl="~/Admin/Projects.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Fourms" NavigateUrl="~/Admin/Fourms.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Logout"  NavigateUrl="~/Admin/ASignout.aspx"></asp:MenuItem>
+                    
+            </Items>
+   
+            <StaticMenuItemStyle BorderColor="#99FF33" />
+         
+           
+         
+        </asp:Menu>
+
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+
+        
+    </div>
+    </form>
+</body>
+</html>
