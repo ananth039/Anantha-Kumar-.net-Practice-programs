@@ -25,7 +25,7 @@ public partial class Users_EditUserDetails : System.Web.UI.Page
 
         txtName.Text = dt.Rows[0][0].ToString();
         string gender = dt.Rows[0][1].ToString();
-        txtDob.Text = dt.Rows[0][2].ToString();
+        txtDob.Text = dt.Rows[0]["DateOfBirth"].ToString();
         txtAddress.Text = dt.Rows[0][3].ToString();
         txtZipcode.Text = dt.Rows[0][4].ToString();
         txtphno.Text = dt.Rows[0][5].ToString();
@@ -123,7 +123,7 @@ public partial class Users_EditUserDetails : System.Web.UI.Page
         {
             Response.Write("<script>alert('please select file');</script>");
         }
-
+        Response.Redirect("PersonalDetails.aspx");
     }
 }
 

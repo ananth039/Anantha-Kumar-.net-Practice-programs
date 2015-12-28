@@ -1,6 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HomePage.master" AutoEventWireup="true" CodeFile="ForgetPassword.aspx.cs" Inherits="ForgetPassword" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style type="text/css">
+        .auto-style1 {
+            height: 30px;
+        }
+        .auto-style2 {
+            height: 55px;
+        }
+        .auto-style3 {
+            height: 44px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <asp:Panel ID="PanelUserRegitstration" runat="server" GroupingText="Forget Password"  align="center" Height="303px" Font-Bold="False" Font-Size="Medium">
@@ -9,11 +20,13 @@
            
            
             <tr>
-                <td class="auto-style18">
+                <td class="auto-style3">
                     <asp:Label ID="lblUserName" runat="server" Text="User Name"></asp:Label>
                 </td>
-                <td class="auto-style14">
-                    <asp:TextBox ID="txtUserName" runat="server" Width="186px"></asp:TextBox>
+                <td class="auto-style3">
+                    <asp:TextBox ID="txtUserName" runat="server" Width="186px" OnTextChanged="txtUserName_TextChanged" AutoPostBack="true"></asp:TextBox>
+                    <asp:Label ID="lblerrormsg" runat="server" ForeColor="Red" Text=""></asp:Label>
+                    <br />
                 </td>
             </tr>
             

@@ -116,4 +116,52 @@ public partial class UserRegisteration : System.Web.UI.Page
         }
     }
 
+    protected void txtphno_TextChanged(object sender, EventArgs e)
+    {
+        usr.Phno = txtphno.Text;
+        int checkphnoValid = usr.CheckedPhno(usr);
+        if(checkphnoValid>0)
+        {
+            lblerrormsg.Text = "This phno is already exist";
+           
+            txtphno.Focus();
+        }
+        else
+        {
+            lblerrormsg.Visible = false;
+        }
+    }
+     
+           protected void txtEmail_TextChanged(object sender, EventArgs e)
+           {
+               usr.Email = txtEmail.Text;
+               int checkEmailValid = usr.CheckedUserEmail(usr);
+               if (checkEmailValid > 0)
+               {
+                   lblerrormsg2.Text = "This Email is already Exist";
+
+                   lblerrormsg2.Focus();
+               }
+               else
+               {
+                   lblerrormsg2.Visible = false;
+               }
+       
+           }
+           protected void txtUserName_TextChanged(object sender, EventArgs e)
+           {
+               usr.Username = txtUserName.Text;
+               int checkEmailValid = usr.CheckedUserName(usr);
+               if (checkEmailValid > 0)
+               {
+                   lblerrormsg3.Text = "This User Name is already Exist";
+
+                   lblerrormsg3.Focus();
+               }
+               else
+               {
+                   lblerrormsg3.Visible = false;
+               }
+       
+           }
 }

@@ -4,7 +4,8 @@
 <style type="text/css">
         .auto-style1 {
             width: 48%;
-        }
+        margin-right: 19px;
+    }
         .auto-style9 {
             height: 24px;
             width: 67px;
@@ -29,10 +30,9 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Panel ID="PanelUserRegitstration" runat="server" GroupingText="User Registration"  align="center" Height="303px" Font-Bold="False" Font-Size="Medium">
-        <br />
-        <table class="auto-style1" align="center">
-           
+    <div align="center">
+        <table class="auto-style1">
+          <caption>User Registration</caption>
             <tr>
 
                 <td class="auto-style18">
@@ -49,16 +49,16 @@
                 </td>
                 <td class="auto-style9">
                     <asp:TextBox ID="txtName" runat="server" Width="186px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RFVName" ControlToValidate="txtName" runat="server" ErrorMessage="Please enter Your Name" ForeColor="Red"></asp:RequiredFieldValidator>
-                    </td>
+                    <asp:RequiredFieldValidator runat="server" Display="Dynamic" ControlToValidate="txtName" ForeColor="Red" ErrorMessage="Please enter text name"></asp:RequiredFieldValidator></td>
             </tr>
             <tr>
                 <td class="auto-style19">
                     <asp:Label ID="lblphno" runat="server" Text="Phno"></asp:Label>
                 </td>
                 <td class="auto-style15">
-                    <asp:TextBox ID="txtphno" runat="server" TextMode="Phone"  Width="186px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RFVPhno" runat="server" ControlToValidate="txtphno" ErrorMessage="please enter Phone Number" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:TextBox ID="txtphno" runat="server" TextMode="Phone"  Width="186px" OnTextChanged="txtphno_TextChanged" AutoPostBack="true"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RFVPhno" Display="Dynamic" runat="server" ControlToValidate="txtphno" ErrorMessage="please enter Phone Number" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:Label ID="lblerrormsg" runat="server" ForeColor="Red"></asp:Label>
                    </td>
             </tr>
             <tr>
@@ -66,8 +66,9 @@
                     <asp:Label ID="lblEmail" runat="server" Text="Email"></asp:Label>
                 </td>
                 <td class="auto-style14">
-                    <asp:TextBox ID="txtEmail" runat="server" Width="186px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RFVEmail" ControlToValidate="txtEmail" runat="server" ErrorMessage="Please enter Email Id" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:TextBox ID="txtEmail" runat="server" Width="186px" OnTextChanged="txtEmail_TextChanged" AutoPostBack="true"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RFVEmail" Display="Dynamic" ControlToValidate="txtEmail" runat="server" ErrorMessage="Please enter Email Id" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:Label ID="lblerrormsg2" runat="server" ForeColor="Red"></asp:Label>
                 </td>
             </tr>
             <tr>
@@ -75,9 +76,10 @@
                     <asp:Label ID="lblUserName" runat="server" Text="User Name"></asp:Label>
                 </td>
                 <td class="auto-style14">
-                    <asp:TextBox ID="txtUserName" runat="server" Width="186px"></asp:TextBox>
+                    <asp:TextBox ID="txtUserName" runat="server" Width="186px" OnTextChanged="txtUserName_TextChanged" AutoPostBack="true"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RFVUserName" runat="server" ControlToValidate="txtUserName" ErrorMessage ="Please enter user name" ForeColor="Red"></asp:RequiredFieldValidator>
-                    <asp:CustomValidator ID="CvUserName" ValidateEmptyText="true" runat="server" ControlToValidate="txtUserName" ErrorMessage="user name should have minimum 6 characters" ForeColor="Red" OnServerValidate="CvUserName_ServerValidate"></asp:CustomValidator>
+                    <asp:CustomValidator ID="CvUserName" Display="Dynamic" ValidateEmptyText="true" runat="server" ControlToValidate="txtUserName" ErrorMessage="user name should have minimum 6 characters" ForeColor="Red" OnServerValidate="CvUserName_ServerValidate"></asp:CustomValidator>
+                    <asp:Label ID="lblerrormsg3" runat="server" ForeColor="Red"></asp:Label>
                      </td>
             </tr>
             <tr>
@@ -86,7 +88,16 @@
                 </td>
                 <td class="auto-style15">
                     <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" Width="186px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RFVPassword" runat="server" ControlToValidate="txtPassword" ErrorMessage="Please enter Password" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RFVPassword"  Display="Dynamic" runat="server" ControlToValidate="txtPassword" ErrorMessage="Please enter Password" ForeColor="Red"></asp:RequiredFieldValidator>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style19">
+                    <asp:Label ID="lblConfirmPassword" runat="server" Text="Confirm Password"></asp:Label>
+                </td>
+                <td class="auto-style15">
+                    <asp:TextBox ID="txtConfirmPassword" runat="server" TextMode="Password" Width="186px" style="margin-left: 0px"></asp:TextBox>
+                    <asp:CompareValidator ID="cmpvConfirmpassword" Display="Dynamic" runat="server" ControlToValidate="txtPassword" ControlToCompare="txtConfirmPassword" ForeColor="Red" ErrorMessage="both passwords are should be match"></asp:CompareValidator>
                 </td>
             </tr>
             <tr>
@@ -109,7 +120,7 @@
                 </td>
                 <td class="auto-style14">
                     <asp:TextBox ID="txtAnswer" runat="server" Width="186px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RFVAnswer" ControlToValidate="txtAnswer" runat="server" ErrorMessage="Please enter Answer" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RFVAnswer" Display="Dynamic" ControlToValidate="txtAnswer" runat="server" ErrorMessage="Please enter Answer" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
            
@@ -124,13 +135,31 @@
             <tr><td colspan="2"><asp:Label ID="Lblmsg" runat="server" Text=""></asp:Label></td></tr>
            
         </table>
-        
+          </div>
                 
          <br />
          <br />
 
   
-    </asp:Panel>
+
+
+  
+    
+       
+
+  
+    
+      
+  
+  
+
+
+  
+    
+       
+
+  
+    
 </asp:Content>
 
 

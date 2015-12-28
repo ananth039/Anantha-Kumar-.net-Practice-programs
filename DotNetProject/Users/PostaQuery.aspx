@@ -1,10 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Users/UserHomepage.master" AutoEventWireup="true" CodeFile="PostaQuery.aspx.cs" Inherits="Users_PostaQuery" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server"><style type="text/css">
-        .auto-style1 {
-            width: 445px;
+                                                                          .auto-style1 {
+            width: 533px;
             z-index: 1;
-            left: 386px;
+            left: 345px;
             top: 139px;
             position: absolute;
             height: 120px;
@@ -38,6 +38,7 @@
                 </td>
                 <td class="auto-style16">
                     <asp:TextBox ID="txtQuestion" runat="server" Width="248px"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RFVQuestion" runat="server" ForeColor="Red" Display="Dynamic" ControlToValidate="txtQuestion"  ErrorMessage="please enter your query"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>

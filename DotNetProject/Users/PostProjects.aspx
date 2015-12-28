@@ -56,6 +56,7 @@
         </td>
         <td class="auto-style5">
             <asp:TextBox ID="txtProjectType" runat="server" style="margin-left: 0px" Width="204px"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RfvProjectType" runat="server" ControlToValidate="txtProjectType" Display="Dynamic" ForeColor="red"    ErrorMessage="please enter project Type"></asp:RequiredFieldValidator>
         </td>
     </tr>
     <tr>

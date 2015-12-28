@@ -11,10 +11,10 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <asp:Panel ID="PanelAdminLogin" runat="server" GroupingText="Admin Login"  align="center" Height="303px" Font-Bold="False" Font-Size="Medium">
-        <br />
+   
+          <br />
         <table class="auto-style1" align="center">
-
+            <caption>Admin Login</caption>
             <tr>
                 <td class="auto-style18">
                     <asp:Label ID="lblUserName" runat="server" Text="User Name"></asp:Label>
@@ -50,7 +50,7 @@
             </tr>
            
         </table>
-         </asp:Panel>
+         
 
 </asp:Content>
 

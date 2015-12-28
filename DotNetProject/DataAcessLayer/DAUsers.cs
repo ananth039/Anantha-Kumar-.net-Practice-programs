@@ -161,29 +161,29 @@ namespace DataAcessLayer
             return LoginId;
         }
 
-        public DataTable GetUserDetails(DAUsers users)
+        public DataTable GetUserDetails(DAUsers dausr)
         {
-            SqlDataAdapter da = new SqlDataAdapter("select Name,Gender,DateOfBirth,Address,zipCode,Phno,email,Username from Login where Username='" + users.Username + "'", con);
+            SqlDataAdapter da = new SqlDataAdapter("select Name,Gender,DateOfBirth,Address,zipCode,Phno,email,Username from Login where Username='" + dausr.Username + "'", con);
             DataTable dt = new DataTable();
             da.Fill(dt);
             return dt;
         }
 
 
-        public int UploadImage(DAUsers users)
+        public int UploadImage(DAUsers dausr)
         {
             con.Open();
             SqlCommand cmd = new SqlCommand("update Login set Photo=@Photo where Username=@UserName", con);
-            cmd.Parameters.Add("@Photo",SqlDbType.Image).Value=users.photo;
-            cmd.Parameters.AddWithValue("@UserName",users.Username);
+            cmd.Parameters.Add("@Photo",SqlDbType.Image).Value=dausr.photo;
+            cmd.Parameters.AddWithValue("@UserName",dausr.Username);
             int counnt=cmd.ExecuteNonQuery();
             con.Close();
             return counnt;
 
         }
-        public byte[] GetImage(DAUsers users)
+        public byte[] GetImage(DAUsers dausr)
         {
-            SqlDataAdapter da = new SqlDataAdapter("select Photo from Login where Username='"+users.Username+"'", con);
+            SqlDataAdapter da = new SqlDataAdapter("select Photo from Login where Username='"+dausr.Username+"'", con);
             DataTable dt = new DataTable();
             da.Fill(dt);
 
@@ -205,6 +205,37 @@ namespace DataAcessLayer
 
             return photo;
         }
-        
+
+        public int CheckedPhno(DAUsers dausr)
+        {
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select count(*) from Login where Phno=@Phno", con);
+            cmd.Parameters.AddWithValue("@Phno", dausr.Phno);
+            int StatusUserCheckPhno= (int)cmd.ExecuteScalar();
+            con.Close();
+            return StatusUserCheckPhno;
+        }
+        public int CheckedUserEmail(DAUsers dausr)
+        {
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select count(*) from Login where email=@email", con);
+            cmd.Parameters.Add("@email",SqlDbType.NVarChar).Value=dausr.Email;
+            int StatusUserCheckEmail = (int)cmd.ExecuteScalar();
+            con.Close();
+            return StatusUserCheckEmail;
+        }
+
+        public int CheckedUserName(DAUsers dausr)
+        {
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select count(*) from Login where Username=@Username", con);
+            cmd.Parameters.AddWithValue("@Username", dausr.Username);
+            int StatusUserCheckEmail = (int)cmd.ExecuteScalar();
+            con.Close();
+            return StatusUserCheckEmail;
+        }
     }
 }

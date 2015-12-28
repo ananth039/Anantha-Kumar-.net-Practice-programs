@@ -114,4 +114,20 @@ public partial class ForgetPassword : System.Web.UI.Page
             ClearControlsData(Page.Controls);
         }
     }
+    protected void txtUserName_TextChanged(object sender, EventArgs e)
+    {
+        usrs.Username = txtUserName.Text;
+        int checkEmailValid = usrs.CheckedUserName(usrs);
+        if (checkEmailValid > 0)
+        {
+            lblerrormsg.Visible = false;
+        }
+        else
+        {
+            
+            lblerrormsg.Text = "This username is not exist.please enter valid username";
+
+            lblerrormsg.Focus();
+        }
+    }
 }
